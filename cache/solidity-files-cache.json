@@ -432,10 +432,10 @@
         }
       }
     },
-    "src/ethernaut/level_6/Force.sol": {
+    "src/ethernaut/level_7/Force.sol": {
       "lastModificationDate": 1666104361453,
       "contentHash": "f290919960c8dd371efc47d5674d6cc6",
-      "sourceName": "src/ethernaut/level_6/Force.sol",
+      "sourceName": "src/ethernaut/level_7/Force.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -471,9 +471,48 @@
         }
       }
     },
+    "src/ethernaut/level_8/Vault.sol": {
+      "lastModificationDate": 1666108620057,
+      "contentHash": "5afbf122e229170bdd173a0fa241bf54",
+      "sourceName": "src/ethernaut/level_8/Vault.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "Vault": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Vault.sol/Vault.json"
+        }
+      }
+    },
     "test/ethernaut/Force.t.sol": {
-      "lastModificationDate": 1666105027189,
-      "contentHash": "badd8d903d26e86b615ad776a299a06b",
+      "lastModificationDate": 1666109144085,
+      "contentHash": "2c1c854a1850338059741ff0e9370d4d",
       "sourceName": "test/ethernaut/Force.t.sol",
       "solcConfig": {
         "settings": {
@@ -510,7 +549,7 @@
         "lib/forge-std/src/Vm.sol",
         "lib/forge-std/src/console.sol",
         "lib/forge-std/src/console2.sol",
-        "src/ethernaut/level_6/Force.sol"
+        "src/ethernaut/level_7/Force.sol"
       ],
       "versionRequirement": "^0.8.13",
       "artifacts": {
@@ -519,6 +558,54 @@
         },
         "ForceTest": {
           "0.8.17+commit.8df45f5f.Darwin.appleclang": "Force.t.sol/ForceTest.json"
+        }
+      }
+    },
+    "test/ethernaut/Vault.t.sol": {
+      "lastModificationDate": 1666111249205,
+      "contentHash": "1485e6532a35b289778b177cf964e51f",
+      "sourceName": "test/ethernaut/Vault.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Script.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "src/ethernaut/level_8/Vault.sol"
+      ],
+      "versionRequirement": "^0.8.13",
+      "artifacts": {
+        "VaultTest": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Vault.t.sol/VaultTest.json"
         }
       }
     }

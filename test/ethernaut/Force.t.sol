@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import "forge-std/Test.sol";
-import "../../src/ethernaut/level_6/Force.sol";
+import "../../src/ethernaut/level_7/Force.sol";
 
 contract Attack {
     address victim;
