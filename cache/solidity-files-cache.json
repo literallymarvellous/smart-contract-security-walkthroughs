@@ -432,6 +432,48 @@
         }
       }
     },
+    "src/ethernaut/level_16/Preservation.sol": {
+      "lastModificationDate": 1666111784794,
+      "contentHash": "9f4ccbcc83bbd2993535f8fb41d5af0d",
+      "sourceName": "src/ethernaut/level_16/Preservation.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "LibraryContract": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Preservation.sol/LibraryContract.json"
+        },
+        "Preservation": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Preservation.sol/Preservation.json"
+        }
+      }
+    },
     "src/ethernaut/level_7/Force.sol": {
       "lastModificationDate": 1666104361453,
       "contentHash": "f290919960c8dd371efc47d5674d6cc6",
@@ -561,9 +603,60 @@
         }
       }
     },
+    "test/ethernaut/Preservation.t.sol": {
+      "lastModificationDate": 1666115233191,
+      "contentHash": "688dc07a570b2470193fb3117e7bda9f",
+      "sourceName": "test/ethernaut/Preservation.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Script.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "src/ethernaut/level_16/Preservation.sol"
+      ],
+      "versionRequirement": "^0.8.13",
+      "artifacts": {
+        "Attack": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Preservation.t.sol/Attack.json"
+        },
+        "PreservationTest": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Preservation.t.sol/PreservationTest.json"
+        }
+      }
+    },
     "test/ethernaut/Vault.t.sol": {
-      "lastModificationDate": 1666111249205,
-      "contentHash": "1485e6532a35b289778b177cf964e51f",
+      "lastModificationDate": 1666111275247,
+      "contentHash": "51e5ceb74bb42673ee9dc4364fe25478",
       "sourceName": "test/ethernaut/Vault.t.sol",
       "solcConfig": {
         "settings": {

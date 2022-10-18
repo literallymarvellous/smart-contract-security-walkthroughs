@@ -10,4 +10,10 @@ Firstly, no data stored on the blockchain is private, all data on a smart contra
 
 Accessing storage data can be done with either etherjs or web3js, both have functions for these.
 
+### security info
+
+- Don't store sensitive info without hashes
+- All storage data is visible and can be read on the blockchain.
+- When inheriting contracts be sure of the inheritance hierarchy cause that affects storage slot arrangements too.
+
 Check test/ethernaut for soluiton contract.
