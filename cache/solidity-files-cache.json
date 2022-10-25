@@ -715,6 +715,84 @@
         }
       }
     },
+    "src/ethernautDao/Wallet.sol": {
+      "lastModificationDate": 1666608143141,
+      "contentHash": "e4e6b4227bb7e7e12edbc57577a98c1a",
+      "sourceName": "src/ethernautDao/Wallet.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.13",
+      "artifacts": {
+        "Wallet": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Wallet.sol/Wallet.json"
+        }
+      }
+    },
+    "src/ethernautDao/WalletLibrary.sol": {
+      "lastModificationDate": 1666599428605,
+      "contentHash": "fc59046a9ebc74afca186d816d283eba",
+      "sourceName": "src/ethernautDao/WalletLibrary.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.13",
+      "artifacts": {
+        "WalletLibrary": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "WalletLibrary.sol/WalletLibrary.json"
+        }
+      }
+    },
     "test/ethernaut/Fallback.t.sol": {
       "lastModificationDate": 1666598488382,
       "contentHash": "28c4ab7de6be0053ba60edecde4053d0",
@@ -964,8 +1042,8 @@
       }
     },
     "test/ethernautDao/Privatedata.t.sol": {
-      "lastModificationDate": 1666599238702,
-      "contentHash": "9c93c35937f6136d411898f5072ff80e",
+      "lastModificationDate": 1666607930435,
+      "contentHash": "5d59ce5c89fe142546e13e5cc8189ea7",
       "sourceName": "test/ethernautDao/Privatedata.t.sol",
       "solcConfig": {
         "settings": {
@@ -1008,6 +1086,55 @@
       "artifacts": {
         "PrivateDataTest": {
           "0.8.17+commit.8df45f5f.Darwin.appleclang": "Privatedata.t.sol/PrivateDataTest.json"
+        }
+      }
+    },
+    "test/ethernautDao/Wallet.t.sol": {
+      "lastModificationDate": 1666706578344,
+      "contentHash": "4527e7a678a693e44540a4514dfb4820",
+      "sourceName": "test/ethernautDao/Wallet.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Script.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "src/ethernautDao/Wallet.sol",
+        "src/ethernautDao/WalletLibrary.sol"
+      ],
+      "versionRequirement": "^0.8.13",
+      "artifacts": {
+        "WalletTest": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Wallet.t.sol/WalletTest.json"
         }
       }
     }

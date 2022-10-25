@@ -21,6 +21,4 @@ contract PrivateDataTest is Test {
 
         privatedata.takeOwnership(key);
     }
-
-    receive() external payable {}
 }
