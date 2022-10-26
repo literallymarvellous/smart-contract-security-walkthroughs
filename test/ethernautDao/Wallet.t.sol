@@ -2,8 +2,8 @@
 pragma solidity ^0.8.13;
 
 import "forge-std/Test.sol";
-import "../../src/ethernautDao/Wallet.sol";
-import "../../src/ethernautDao/WalletLibrary.sol";
+import "../../src/ethernautDao/level2/Wallet.sol";
+import "../../src/ethernautDao/level2/WalletLibrary.sol";
 
 contract WalletTest is Test {
     Wallet public wallet;

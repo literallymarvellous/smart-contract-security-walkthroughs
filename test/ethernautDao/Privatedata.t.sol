@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import "forge-std/Test.sol";
-import "../../src/ethernautDao/PrivateData.sol";
+import "../../src/ethernautDao/level1/PrivateData.sol";
 
 contract PrivateDataTest is Test {
     PrivateData public privatedata;

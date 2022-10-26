@@ -1,0 +1,1968 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_carMarket",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_carToken",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "carMarket",
+      "outputs": [
+        {
+          "internalType": "contract ICarMarket",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "flashLoan",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getCarMarket",
+      "outputs": [
+        {
+          "internalType": "contract ICarMarket",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getCarToken",
+      "outputs": [
+        {
+          "internalType": "contract ICarToken",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x608060405234801561001057600080fd5b506040516105b63803806105b683398101604081905261002f9161007f565b600280546001600160a01b039283166001600160a01b031991821617909155600380549390921692169190911790556100b2565b80516001600160a01b038116811461007a57600080fd5b919050565b6000806040838503121561009257600080fd5b61009b83610063565b91506100a960208401610063565b90509250929050565b6104f5806100c16000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c8063747f8a88146100515780639ab603b91461007a578063d93e8a951461008f578063e74e6a39146100a0575b600080fd5b6003546001600160a01b03165b6040516001600160a01b03909116815260200160405180910390f35b61008d610088366004610435565b6100b3565b005b6002546001600160a01b031661005e565b60035461005e906001600160a01b031681565b6003546040516312dddefb60e31b81523360048201526001600160a01b03909116906396eef7d890602401602060405180830381865afa1580156100fb573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061011f919061044e565b6101685760405162461bcd60e51b81526020600482015260156024820152742737ba1032bc34b9ba34b7339031bab9ba37b6b2b960591b60448201526064015b60405180910390fd5b6002546001546040516370a0823160e01b81526001600160a01b03918216600482015260009291909116906370a0823190602401602060405180830381865afa1580156101b9573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906101dd9190610477565b9050818110156102265760405162461bcd60e51b8152602060048201526014602482015273416d6f756e74206e6f7420617661696c61626c6560601b604482015260640161015f565b60025460405163a9059cbb60e01b8152336004820152602481018490526001600160a01b039091169063a9059cbb906044016020604051808303816000875af1158015610277573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061029b919061044e565b50604051306024820152600090339060440160408051601f198184030181529181526020820180516001600160e01b03166001624f0a6d60e01b0319179052516102e59190610490565b6000604051808303816000865af19150503d8060008114610322576040519150601f19603f3d011682016040523d82523d6000602084013e610327565b606091505b50509050806103705760405162461bcd60e51b815260206004820152601560248201527410d85b1b081d1bc81d185c99d95d0819985a5b1959605a1b604482015260640161015f565b6002546001546040516370a0823160e01b81526001600160a01b03918216600482015260009291909116906370a0823190602401602060405180830381865afa1580156103c1573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906103e59190610477565b90508281101561042f5760405162461bcd60e51b8152602060048201526015602482015274131bd85b881b9bdd081c185a59081a5b88199d5b1b605a1b604482015260640161015f565b50505050565b60006020828403121561044757600080fd5b5035919050565b60006020828403121561046057600080fd5b8151801515811461047057600080fd5b9392505050565b60006020828403121561048957600080fd5b5051919050565b6000825160005b818110156104b15760208186018101518583015201610497565b50600092019182525091905056fea264697066735822122062f1a35367c4a5d99e4c408b9f6c275d0e6295a295016ea47b02310c0bc15a4564736f6c63430008110033",
+    "sourceMap": "352:2003:15:-:0;;;732:143;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;793:8;:31;;-1:-1:-1;;;;;793:31:15;;;-1:-1:-1;;;;;;793:31:15;;;;;;;834:9;:34;;;;;;;;;;;;;;352:2003;;14:177:23;93:13;;-1:-1:-1;;;;;135:31:23;;125:42;;115:70;;181:1;178;171:12;115:70;14:177;;;:::o;196:293::-;275:6;283;336:2;324:9;315:7;311:23;307:32;304:52;;;352:1;349;342:12;304:52;375:40;405:9;375:40;:::i;:::-;365:50;;434:49;479:2;468:9;464:18;434:49;:::i;:::-;424:59;;196:293;;;;;:::o;:::-;352:2003:15;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x608060405234801561001057600080fd5b506004361061004c5760003560e01c8063747f8a88146100515780639ab603b91461007a578063d93e8a951461008f578063e74e6a39146100a0575b600080fd5b6003546001600160a01b03165b6040516001600160a01b03909116815260200160405180910390f35b61008d610088366004610435565b6100b3565b005b6002546001600160a01b031661005e565b60035461005e906001600160a01b031681565b6003546040516312dddefb60e31b81523360048201526001600160a01b03909116906396eef7d890602401602060405180830381865afa1580156100fb573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061011f919061044e565b6101685760405162461bcd60e51b81526020600482015260156024820152742737ba1032bc34b9ba34b7339031bab9ba37b6b2b960591b60448201526064015b60405180910390fd5b6002546001546040516370a0823160e01b81526001600160a01b03918216600482015260009291909116906370a0823190602401602060405180830381865afa1580156101b9573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906101dd9190610477565b9050818110156102265760405162461bcd60e51b8152602060048201526014602482015273416d6f756e74206e6f7420617661696c61626c6560601b604482015260640161015f565b60025460405163a9059cbb60e01b8152336004820152602481018490526001600160a01b039091169063a9059cbb906044016020604051808303816000875af1158015610277573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061029b919061044e565b50604051306024820152600090339060440160408051601f198184030181529181526020820180516001600160e01b03166001624f0a6d60e01b0319179052516102e59190610490565b6000604051808303816000865af19150503d8060008114610322576040519150601f19603f3d011682016040523d82523d6000602084013e610327565b606091505b50509050806103705760405162461bcd60e51b815260206004820152601560248201527410d85b1b081d1bc81d185c99d95d0819985a5b1959605a1b604482015260640161015f565b6002546001546040516370a0823160e01b81526001600160a01b03918216600482015260009291909116906370a0823190602401602060405180830381865afa1580156103c1573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906103e59190610477565b90508281101561042f5760405162461bcd60e51b8152602060048201526015602482015274131bd85b881b9bdd081c185a59081a5b88199d5b1b605a1b604482015260640161015f565b50505050565b60006020828403121561044757600080fd5b5035919050565b60006020828403121561046057600080fd5b8151801515811461047057600080fd5b9392505050565b60006020828403121561048957600080fd5b5051919050565b6000825160005b818110156104b15760208186018101518583015201610497565b50600092019182525091905056fea264697066735822122062f1a35367c4a5d99e4c408b9f6c275d0e6295a295016ea47b02310c0bc15a4564736f6c63430008110033",
+    "sourceMap": "352:2003:15:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2116:92;2192:9;;-1:-1:-1;;;;;2192:9:15;2116:92;;;-1:-1:-1;;;;;198:32:23;;;180:51;;168:2;153:18;2116:92:15;;;;;;;1006:1053;;;;;;:::i;:::-;;:::i;:::-;;2264:89;2338:8;;-1:-1:-1;;;;;2338:8:15;2264:89;;490:27;;;;;-1:-1:-1;;;;;490:27:15;;;1006:1053;1146:9;;:40;;-1:-1:-1;;;1146:40:15;;1175:10;1146:40;;;180:51:23;-1:-1:-1;;;;;1146:9:15;;;;:28;;153:18:23;;1146:40:15;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;1125:108;;;;-1:-1:-1;;;1125:108:15;;1346:2:23;1125:108:15;;;1328:21:23;1385:2;1365:18;;;1358:30;-1:-1:-1;;;1404:18:23;;;1397:51;1465:18;;1125:108:15;;;;;;;;;1336:8;;;1355:10;1336:30;;-1:-1:-1;;;1336:30:15;;-1:-1:-1;;;;;1355:10:15;;;1336:30;;;180:51:23;1312:21:15;;1336:8;;;;;:18;;153::23;;1336:30:15;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;1312:54;;1471:7;1454:13;:24;;1446:57;;;;-1:-1:-1;;;1446:57:15;;1885:2:23;1446:57:15;;;1867:21:23;1924:2;1904:18;;;1897:30;-1:-1:-1;;;1943:18:23;;;1936:50;2003:18;;1446:57:15;1683:344:23;1446:57:15;1576:8;;:38;;-1:-1:-1;;;1576:38:15;;1594:10;1576:38;;;2206:51:23;2273:18;;;2266:34;;;-1:-1:-1;;;;;1576:8:15;;;;:17;;2179:18:23;;1576:38:15;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;-1:-1:-1;1673:67:15;;1734:4;1673:67;;;180:51:23;1626:12:15;;1644:10;;153:18:23;;1673:67:15;;;-1:-1:-1;;1673:67:15;;;;;;;;;;;;;;-1:-1:-1;;;;;1673:67:15;-1:-1:-1;;;;;;1673:67:15;;;1644:106;;;1673:67;1644:106;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1625:125;;;1768:7;1760:41;;;;-1:-1:-1;;;1760:41:15;;2930:2:23;1760:41:15;;;2912:21:23;2969:2;2949:18;;;2942:30;-1:-1:-1;;;2988:18:23;;;2981:51;3049:18;;1760:41:15;2728:345:23;1760:41:15;1902:8;;;1921:10;1902:30;;-1:-1:-1;;;1902:30:15;;-1:-1:-1;;;;;1921:10:15;;;1902:30;;;180:51:23;1879:20:15;;1902:8;;;;;:18;;153::23;;1902:30:15;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;1879:53;;2013:13;1997:12;:29;;1989:63;;;;-1:-1:-1;;;1989:63:15;;3280:2:23;1989:63:15;;;3262:21:23;3319:2;3299:18;;;3292:30;-1:-1:-1;;;3338:18:23;;;3331:51;3399:18;;1989:63:15;3078:345:23;1989:63:15;1051:1008;;;1006:1053;:::o;242:180:23:-;301:6;354:2;342:9;333:7;329:23;325:32;322:52;;;370:1;367;360:12;322:52;-1:-1:-1;393:23:23;;242:180;-1:-1:-1;242:180:23:o;862:277::-;929:6;982:2;970:9;961:7;957:23;953:32;950:52;;;998:1;995;988:12;950:52;1030:9;1024:16;1083:5;1076:13;1069:21;1062:5;1059:32;1049:60;;1105:1;1102;1095:12;1049:60;1128:5;862:277;-1:-1:-1;;;862:277:23:o;1494:184::-;1564:6;1617:2;1605:9;1596:7;1592:23;1588:32;1585:52;;;1633:1;1630;1623:12;1585:52;-1:-1:-1;1656:16:23;;1494:184;-1:-1:-1;1494:184:23:o;2311:412::-;2440:3;2478:6;2472:13;2503:1;2513:129;2527:6;2524:1;2521:13;2513:129;;;2625:4;2609:14;;;2605:25;;2599:32;2586:11;;;2579:53;2542:12;2513:129;;;-1:-1:-1;2697:1:23;2661:16;;2686:13;;;-1:-1:-1;2661:16:23;2311:412;-1:-1:-1;2311:412:23:o",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "carMarket()": "e74e6a39",
+    "flashLoan(uint256)": "9ab603b9",
+    "getCarMarket()": "747f8a88",
+    "getCarToken()": "d93e8a95"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_carMarket\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_carToken\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"carMarket\",\"outputs\":[{\"internalType\":\"contract ICarMarket\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_amount\",\"type\":\"uint256\"}],\"name\":\"flashLoan\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getCarMarket\",\"outputs\":[{\"internalType\":\"contract ICarMarket\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getCarToken\",\"outputs\":[{\"internalType\":\"contract ICarToken\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"author\":\"Jelo\",\"kind\":\"dev\",\"methods\":{\"constructor\":{\"params\":{\"_carMarket\":\"The exchange where car trades take place.\",\"_carToken\":\"The token used to purchase cars.\"}},\"flashLoan(uint256)\":{\"params\":{\"_amount\":\"The amount to be borrowed.\"}},\"getCarMarket()\":{\"details\":\"Returns the car market\"},\"getCarToken()\":{\"details\":\"Returns the car token\"}},\"title\":\"CarFactory\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"constructor\":{\"notice\":\"Sets the car Market and car token during deployment.\"},\"flashLoan(uint256)\":{\"notice\":\"Gives out flashLoan to an existing customer.\"}},\"notice\":\"This is a contract that handles crucial changes in the car company.         It also gives out flashloans to existing customers of the car company.\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/ethernautDao/level3/CarFactory.sol\":\"CarFactory\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin/=lib/openzeppelin-contracts/\",\":@solmate/=lib/solmate/src/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/contracts/\",\":solmate/=lib/solmate/src/\"]},\"sources\":{\"lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol\":{\"keccak256\":\"0x9750c6b834f7b43000631af5cc30001c5f547b3ceb3635488f140f60e897ea6b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5a7d5b1ef5d8d5889ad2ed89d8619c09383b80b72ab226e0fe7bde1636481e34\",\"dweb:/ipfs/QmebXWgtEfumQGBdVeM6c71McLixYXQP5Bk6kKXuoY4Bmr\"]},\"src/ethernautDao/level3/CarFactory.sol\":{\"keccak256\":\"0xdf52d673889229390239be24a44c38a9f4918ee0445df2076cdc75bbe7bd72d0\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://b78c972c6353c72d53154342b2696647b80d2b597a8a63b30f77f2730f65fb0f\",\"dweb:/ipfs/QmbfLC35inJAqM5uqv2uU38KXFtMu7e41g6FHVjFbWBRmy\"]},\"src/ethernautDao/level3/interfaces/ICarMarket.sol\":{\"keccak256\":\"0x415034cc2cc2bc710f438d251af98b9cb2c66006463eb0272a7db14956288b45\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://509bb427c23217d8357ead61219dfa82964a71b6784a2918927f79958d278cbf\",\"dweb:/ipfs/QmWGSabKX3zdeNoyB3uocUvjBzhmxbbxCXgUthAR5hDNiH\"]},\"src/ethernautDao/level3/interfaces/ICarToken.sol\":{\"keccak256\":\"0x3422b68b1d87abb2b3aa766362fa84306c9d9055550f421e826919cb5bf5e7ab\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://5b1cfcd24a2c5320e26a786b57555b2dbeed51ebb212beb46d982d97ed2a9eb8\",\"dweb:/ipfs/QmdErdqMW26QLwVduHbXqa9KJ5sTZmNAnYscTTu3d2S584\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.17+commit.8df45f5f"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "_carMarket",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "_carToken",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "constructor"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "carMarket",
+          "outputs": [
+            {
+              "internalType": "contract ICarMarket",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "_amount",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "flashLoan"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getCarMarket",
+          "outputs": [
+            {
+              "internalType": "contract ICarMarket",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getCarToken",
+          "outputs": [
+            {
+              "internalType": "contract ICarToken",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {
+          "constructor": {
+            "params": {
+              "_carMarket": "The exchange where car trades take place.",
+              "_carToken": "The token used to purchase cars."
+            }
+          },
+          "flashLoan(uint256)": {
+            "params": {
+              "_amount": "The amount to be borrowed."
+            }
+          },
+          "getCarMarket()": {
+            "details": "Returns the car market"
+          },
+          "getCarToken()": {
+            "details": "Returns the car token"
+          }
+        },
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {
+          "constructor": {
+            "notice": "Sets the car Market and car token during deployment."
+          },
+          "flashLoan(uint256)": {
+            "notice": "Gives out flashLoan to an existing customer."
+          }
+        },
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@openzeppelin/=lib/openzeppelin-contracts/",
+        ":@solmate/=lib/solmate/src/",
+        ":ds-test/=lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/",
+        ":openzeppelin-contracts/=lib/openzeppelin-contracts/contracts/",
+        ":solmate/=lib/solmate/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/ethernautDao/level3/CarFactory.sol": "CarFactory"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol": {
+        "keccak256": "0x9750c6b834f7b43000631af5cc30001c5f547b3ceb3635488f140f60e897ea6b",
+        "urls": [
+          "bzz-raw://5a7d5b1ef5d8d5889ad2ed89d8619c09383b80b72ab226e0fe7bde1636481e34",
+          "dweb:/ipfs/QmebXWgtEfumQGBdVeM6c71McLixYXQP5Bk6kKXuoY4Bmr"
+        ],
+        "license": "MIT"
+      },
+      "src/ethernautDao/level3/CarFactory.sol": {
+        "keccak256": "0xdf52d673889229390239be24a44c38a9f4918ee0445df2076cdc75bbe7bd72d0",
+        "urls": [
+          "bzz-raw://b78c972c6353c72d53154342b2696647b80d2b597a8a63b30f77f2730f65fb0f",
+          "dweb:/ipfs/QmbfLC35inJAqM5uqv2uU38KXFtMu7e41g6FHVjFbWBRmy"
+        ],
+        "license": "GPL-3.0"
+      },
+      "src/ethernautDao/level3/interfaces/ICarMarket.sol": {
+        "keccak256": "0x415034cc2cc2bc710f438d251af98b9cb2c66006463eb0272a7db14956288b45",
+        "urls": [
+          "bzz-raw://509bb427c23217d8357ead61219dfa82964a71b6784a2918927f79958d278cbf",
+          "dweb:/ipfs/QmWGSabKX3zdeNoyB3uocUvjBzhmxbbxCXgUthAR5hDNiH"
+        ],
+        "license": "GPL-3.0"
+      },
+      "src/ethernautDao/level3/interfaces/ICarToken.sol": {
+        "keccak256": "0x3422b68b1d87abb2b3aa766362fa84306c9d9055550f421e826919cb5bf5e7ab",
+        "urls": [
+          "bzz-raw://5b1cfcd24a2c5320e26a786b57555b2dbeed51ebb212beb46d982d97ed2a9eb8",
+          "dweb:/ipfs/QmdErdqMW26QLwVduHbXqa9KJ5sTZmNAnYscTTu3d2S584"
+        ],
+        "license": "GPL-3.0"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/ethernautDao/level3/CarFactory.sol",
+    "id": 24874,
+    "exportedSymbols": {
+      "CarFactory": [
+        24873
+      ],
+      "ICarMarket": [
+        25232
+      ],
+      "ICarToken": [
+        25242
+      ],
+      "IERC20": [
+        24004
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "37:2319:15",
+    "nodes": [
+      {
+        "id": 24746,
+        "nodeType": "PragmaDirective",
+        "src": "37:31:15",
+        "literals": [
+          "solidity",
+          ">=",
+          "0.7",
+          ".0",
+          "<",
+          "0.9",
+          ".0"
+        ]
+      },
+      {
+        "id": 24747,
+        "nodeType": "ImportDirective",
+        "src": "70:37:15",
+        "absolutePath": "src/ethernautDao/level3/interfaces/ICarMarket.sol",
+        "file": "./interfaces/ICarMarket.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 24874,
+        "sourceUnit": 25233,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 24748,
+        "nodeType": "ImportDirective",
+        "src": "108:36:15",
+        "absolutePath": "src/ethernautDao/level3/interfaces/ICarToken.sol",
+        "file": "./interfaces/ICarToken.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 24874,
+        "sourceUnit": 25243,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 24873,
+        "nodeType": "ContractDefinition",
+        "src": "352:2003:15",
+        "nodes": [
+          {
+            "id": 24751,
+            "nodeType": "VariableDeclaration",
+            "src": "398:22:15",
+            "constant": false,
+            "mutability": "mutable",
+            "name": "_owner",
+            "nameLocation": "414:6:15",
+            "scope": 24873,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 24750,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "398:7:15",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "private"
+          },
+          {
+            "id": 24753,
+            "nodeType": "VariableDeclaration",
+            "src": "426:26:15",
+            "constant": false,
+            "mutability": "mutable",
+            "name": "carFactory",
+            "nameLocation": "442:10:15",
+            "scope": 24873,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 24752,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "426:7:15",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "private"
+          },
+          {
+            "id": 24756,
+            "nodeType": "VariableDeclaration",
+            "src": "458:26:15",
+            "constant": false,
+            "mutability": "mutable",
+            "name": "carToken",
+            "nameLocation": "476:8:15",
+            "scope": 24873,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_ICarToken_$25242",
+              "typeString": "contract ICarToken"
+            },
+            "typeName": {
+              "id": 24755,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 24754,
+                "name": "ICarToken",
+                "nameLocations": [
+                  "458:9:15"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 25242,
+                "src": "458:9:15"
+              },
+              "referencedDeclaration": 25242,
+              "src": "458:9:15",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_ICarToken_$25242",
+                "typeString": "contract ICarToken"
+              }
+            },
+            "visibility": "private"
+          },
+          {
+            "id": 24759,
+            "nodeType": "VariableDeclaration",
+            "src": "490:27:15",
+            "constant": false,
+            "functionSelector": "e74e6a39",
+            "mutability": "mutable",
+            "name": "carMarket",
+            "nameLocation": "508:9:15",
+            "scope": 24873,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_ICarMarket_$25232",
+              "typeString": "contract ICarMarket"
+            },
+            "typeName": {
+              "id": 24758,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 24757,
+                "name": "ICarMarket",
+                "nameLocations": [
+                  "490:10:15"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 25232,
+                "src": "490:10:15"
+              },
+              "referencedDeclaration": 25232,
+              "src": "490:10:15",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_ICarMarket_$25232",
+                "typeString": "contract ICarMarket"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 24780,
+            "nodeType": "FunctionDefinition",
+            "src": "732:143:15",
+            "body": {
+              "id": 24779,
+              "nodeType": "Block",
+              "src": "783:92:15",
+              "statements": [
+                {
+                  "expression": {
+                    "id": 24771,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 24767,
+                      "name": "carToken",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 24756,
+                      "src": "793:8:15",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_ICarToken_$25242",
+                        "typeString": "contract ICarToken"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "arguments": [
+                        {
+                          "id": 24769,
+                          "name": "_carToken",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 24764,
+                          "src": "814:9:15",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        ],
+                        "id": 24768,
+                        "name": "ICarToken",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 25242,
+                        "src": "804:9:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_contract$_ICarToken_$25242_$",
+                          "typeString": "type(contract ICarToken)"
+                        }
+                      },
+                      "id": 24770,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "nameLocations": [],
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "804:20:15",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_ICarToken_$25242",
+                        "typeString": "contract ICarToken"
+                      }
+                    },
+                    "src": "793:31:15",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ICarToken_$25242",
+                      "typeString": "contract ICarToken"
+                    }
+                  },
+                  "id": 24772,
+                  "nodeType": "ExpressionStatement",
+                  "src": "793:31:15"
+                },
+                {
+                  "expression": {
+                    "id": 24777,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 24773,
+                      "name": "carMarket",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 24759,
+                      "src": "834:9:15",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_ICarMarket_$25232",
+                        "typeString": "contract ICarMarket"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "arguments": [
+                        {
+                          "id": 24775,
+                          "name": "_carMarket",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 24762,
+                          "src": "857:10:15",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        ],
+                        "id": 24774,
+                        "name": "ICarMarket",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 25232,
+                        "src": "846:10:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_contract$_ICarMarket_$25232_$",
+                          "typeString": "type(contract ICarMarket)"
+                        }
+                      },
+                      "id": 24776,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "nameLocations": [],
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "846:22:15",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_ICarMarket_$25232",
+                        "typeString": "contract ICarMarket"
+                      }
+                    },
+                    "src": "834:34:15",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ICarMarket_$25232",
+                      "typeString": "contract ICarMarket"
+                    }
+                  },
+                  "id": 24778,
+                  "nodeType": "ExpressionStatement",
+                  "src": "834:34:15"
+                }
+              ]
+            },
+            "documentation": {
+              "id": 24760,
+              "nodeType": "StructuredDocumentation",
+              "src": "524:203:15",
+              "text": " @notice Sets the car Market and car token during deployment.\n @param _carMarket The exchange where car trades take place.\n @param _carToken The token used to purchase cars."
+            },
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "parameters": {
+              "id": 24765,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 24762,
+                  "mutability": "mutable",
+                  "name": "_carMarket",
+                  "nameLocation": "752:10:15",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 24780,
+                  "src": "744:18:15",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 24761,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "744:7:15",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 24764,
+                  "mutability": "mutable",
+                  "name": "_carToken",
+                  "nameLocation": "772:9:15",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 24780,
+                  "src": "764:17:15",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 24763,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "764:7:15",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "743:39:15"
+            },
+            "returnParameters": {
+              "id": 24766,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "783:0:15"
+            },
+            "scope": 24873,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 24852,
+            "nodeType": "FunctionDefinition",
+            "src": "1006:1053:15",
+            "body": {
+              "id": 24851,
+              "nodeType": "Block",
+              "src": "1051:1008:15",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "expression": {
+                              "id": 24789,
+                              "name": "msg",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": -15,
+                              "src": "1175:3:15",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_magic_message",
+                                "typeString": "msg"
+                              }
+                            },
+                            "id": 24790,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberLocation": "1179:6:15",
+                            "memberName": "sender",
+                            "nodeType": "MemberAccess",
+                            "src": "1175:10:15",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          ],
+                          "expression": {
+                            "id": 24787,
+                            "name": "carMarket",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 24759,
+                            "src": "1146:9:15",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_contract$_ICarMarket_$25232",
+                              "typeString": "contract ICarMarket"
+                            }
+                          },
+                          "id": 24788,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberLocation": "1156:18:15",
+                          "memberName": "isExistingCustomer",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": 25231,
+                          "src": "1146:28:15",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_bool_$",
+                            "typeString": "function (address) view external returns (bool)"
+                          }
+                        },
+                        "id": 24791,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "functionCall",
+                        "lValueRequested": false,
+                        "nameLocations": [],
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "1146:40:15",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "hexValue": "4e6f74206578697374696e6720637573746f6d6572",
+                        "id": 24792,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1200:23:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_72ad55e4acea61128f5f91ede5287f971d277fd89cba0e43dd2dc5262138be7d",
+                          "typeString": "literal_string \"Not existing customer\""
+                        },
+                        "value": "Not existing customer"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_72ad55e4acea61128f5f91ede5287f971d277fd89cba0e43dd2dc5262138be7d",
+                          "typeString": "literal_string \"Not existing customer\""
+                        }
+                      ],
+                      "id": 24786,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        -18,
+                        -18
+                      ],
+                      "referencedDeclaration": -18,
+                      "src": "1125:7:15",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 24793,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1125:108:15",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 24794,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1125:108:15"
+                },
+                {
+                  "assignments": [
+                    24796
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 24796,
+                      "mutability": "mutable",
+                      "name": "balanceBefore",
+                      "nameLocation": "1320:13:15",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 24851,
+                      "src": "1312:21:15",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      },
+                      "typeName": {
+                        "id": 24795,
+                        "name": "uint256",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "1312:7:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 24801,
+                  "initialValue": {
+                    "arguments": [
+                      {
+                        "id": 24799,
+                        "name": "carFactory",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 24753,
+                        "src": "1355:10:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      ],
+                      "expression": {
+                        "id": 24797,
+                        "name": "carToken",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 24756,
+                        "src": "1336:8:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_ICarToken_$25242",
+                          "typeString": "contract ICarToken"
+                        }
+                      },
+                      "id": 24798,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1345:9:15",
+                      "memberName": "balanceOf",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 23961,
+                      "src": "1336:18:15",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
+                        "typeString": "function (address) view external returns (uint256)"
+                      }
+                    },
+                    "id": 24800,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1336:30:15",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "1312:54:15"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "commonType": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        "id": 24805,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "id": 24803,
+                          "name": "balanceBefore",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 24796,
+                          "src": "1454:13:15",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": ">=",
+                        "rightExpression": {
+                          "id": 24804,
+                          "name": "_amount",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 24783,
+                          "src": "1471:7:15",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "src": "1454:24:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "hexValue": "416d6f756e74206e6f7420617661696c61626c65",
+                        "id": 24806,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1480:22:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_e402bd8d43454f42a288af8566cb79368454d9cf5e3a52cb4768e786b521dc3b",
+                          "typeString": "literal_string \"Amount not available\""
+                        },
+                        "value": "Amount not available"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_e402bd8d43454f42a288af8566cb79368454d9cf5e3a52cb4768e786b521dc3b",
+                          "typeString": "literal_string \"Amount not available\""
+                        }
+                      ],
+                      "id": 24802,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        -18,
+                        -18
+                      ],
+                      "referencedDeclaration": -18,
+                      "src": "1446:7:15",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 24807,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1446:57:15",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 24808,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1446:57:15"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "expression": {
+                          "id": 24812,
+                          "name": "msg",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": -15,
+                          "src": "1594:3:15",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_magic_message",
+                            "typeString": "msg"
+                          }
+                        },
+                        "id": 24813,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberLocation": "1598:6:15",
+                        "memberName": "sender",
+                        "nodeType": "MemberAccess",
+                        "src": "1594:10:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      {
+                        "id": 24814,
+                        "name": "_amount",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 24783,
+                        "src": "1606:7:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      ],
+                      "expression": {
+                        "id": 24809,
+                        "name": "carToken",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 24756,
+                        "src": "1576:8:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_ICarToken_$25242",
+                          "typeString": "contract ICarToken"
+                        }
+                      },
+                      "id": 24811,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1585:8:15",
+                      "memberName": "transfer",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 23971,
+                      "src": "1576:17:15",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$_t_bool_$",
+                        "typeString": "function (address,uint256) external returns (bool)"
+                      }
+                    },
+                    "id": 24815,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1576:38:15",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 24816,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1576:38:15"
+                },
+                {
+                  "assignments": [
+                    24818,
+                    null
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 24818,
+                      "mutability": "mutable",
+                      "name": "success",
+                      "nameLocation": "1631:7:15",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 24851,
+                      "src": "1626:12:15",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      },
+                      "typeName": {
+                        "id": 24817,
+                        "name": "bool",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "1626:4:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      "visibility": "internal"
+                    },
+                    null
+                  ],
+                  "id": 24831,
+                  "initialValue": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "hexValue": "7265636569766564436172546f6b656e286164647265737329",
+                            "id": 24824,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "string",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "1697:27:15",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_stringliteral_ffb0f5937c4128d1cda5c64a5fbca3df5446f9b42272d8aeee401ba1a9322638",
+                              "typeString": "literal_string \"receivedCarToken(address)\""
+                            },
+                            "value": "receivedCarToken(address)"
+                          },
+                          {
+                            "arguments": [
+                              {
+                                "id": 24827,
+                                "name": "this",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": -28,
+                                "src": "1734:4:15",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_contract$_CarFactory_$24873",
+                                  "typeString": "contract CarFactory"
+                                }
+                              }
+                            ],
+                            "expression": {
+                              "argumentTypes": [
+                                {
+                                  "typeIdentifier": "t_contract$_CarFactory_$24873",
+                                  "typeString": "contract CarFactory"
+                                }
+                              ],
+                              "id": 24826,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "lValueRequested": false,
+                              "nodeType": "ElementaryTypeNameExpression",
+                              "src": "1726:7:15",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_type$_t_address_$",
+                                "typeString": "type(address)"
+                              },
+                              "typeName": {
+                                "id": 24825,
+                                "name": "address",
+                                "nodeType": "ElementaryTypeName",
+                                "src": "1726:7:15",
+                                "typeDescriptions": {}
+                              }
+                            },
+                            "id": 24828,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "kind": "typeConversion",
+                            "lValueRequested": false,
+                            "nameLocations": [],
+                            "names": [],
+                            "nodeType": "FunctionCall",
+                            "src": "1726:13:15",
+                            "tryCall": false,
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_stringliteral_ffb0f5937c4128d1cda5c64a5fbca3df5446f9b42272d8aeee401ba1a9322638",
+                              "typeString": "literal_string \"receivedCarToken(address)\""
+                            },
+                            {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          ],
+                          "expression": {
+                            "id": 24822,
+                            "name": "abi",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": -1,
+                            "src": "1673:3:15",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_magic_abi",
+                              "typeString": "abi"
+                            }
+                          },
+                          "id": 24823,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "memberLocation": "1677:19:15",
+                          "memberName": "encodeWithSignature",
+                          "nodeType": "MemberAccess",
+                          "src": "1673:23:15",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_function_abiencodewithsignature_pure$_t_string_memory_ptr_$returns$_t_bytes_memory_ptr_$",
+                            "typeString": "function (string memory) pure returns (bytes memory)"
+                          }
+                        },
+                        "id": 24829,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "functionCall",
+                        "lValueRequested": false,
+                        "nameLocations": [],
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "1673:67:15",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes_memory_ptr",
+                          "typeString": "bytes memory"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bytes_memory_ptr",
+                          "typeString": "bytes memory"
+                        }
+                      ],
+                      "expression": {
+                        "expression": {
+                          "id": 24819,
+                          "name": "msg",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": -15,
+                          "src": "1644:3:15",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_magic_message",
+                            "typeString": "msg"
+                          }
+                        },
+                        "id": 24820,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberLocation": "1648:6:15",
+                        "memberName": "sender",
+                        "nodeType": "MemberAccess",
+                        "src": "1644:10:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      "id": 24821,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1655:4:15",
+                      "memberName": "call",
+                      "nodeType": "MemberAccess",
+                      "src": "1644:15:15",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_barecall_payable$_t_bytes_memory_ptr_$returns$_t_bool_$_t_bytes_memory_ptr_$",
+                        "typeString": "function (bytes memory) payable returns (bool,bytes memory)"
+                      }
+                    },
+                    "id": 24830,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1644:106:15",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$_t_bool_$_t_bytes_memory_ptr_$",
+                      "typeString": "tuple(bool,bytes memory)"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "1625:125:15"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 24833,
+                        "name": "success",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 24818,
+                        "src": "1768:7:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "hexValue": "43616c6c20746f20746172676574206661696c6564",
+                        "id": 24834,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1777:23:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_210990d9732ac8bd11b87f8268536cf0808ee9437acbe18af285be6dfebf54ca",
+                          "typeString": "literal_string \"Call to target failed\""
+                        },
+                        "value": "Call to target failed"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_210990d9732ac8bd11b87f8268536cf0808ee9437acbe18af285be6dfebf54ca",
+                          "typeString": "literal_string \"Call to target failed\""
+                        }
+                      ],
+                      "id": 24832,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        -18,
+                        -18
+                      ],
+                      "referencedDeclaration": -18,
+                      "src": "1760:7:15",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 24835,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1760:41:15",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 24836,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1760:41:15"
+                },
+                {
+                  "assignments": [
+                    24838
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 24838,
+                      "mutability": "mutable",
+                      "name": "balanceAfter",
+                      "nameLocation": "1887:12:15",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 24851,
+                      "src": "1879:20:15",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      },
+                      "typeName": {
+                        "id": 24837,
+                        "name": "uint256",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "1879:7:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 24843,
+                  "initialValue": {
+                    "arguments": [
+                      {
+                        "id": 24841,
+                        "name": "carFactory",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 24753,
+                        "src": "1921:10:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      ],
+                      "expression": {
+                        "id": 24839,
+                        "name": "carToken",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 24756,
+                        "src": "1902:8:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_ICarToken_$25242",
+                          "typeString": "contract ICarToken"
+                        }
+                      },
+                      "id": 24840,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1911:9:15",
+                      "memberName": "balanceOf",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 23961,
+                      "src": "1902:18:15",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
+                        "typeString": "function (address) view external returns (uint256)"
+                      }
+                    },
+                    "id": 24842,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1902:30:15",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "1879:53:15"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "commonType": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        "id": 24847,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "id": 24845,
+                          "name": "balanceAfter",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 24838,
+                          "src": "1997:12:15",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": ">=",
+                        "rightExpression": {
+                          "id": 24846,
+                          "name": "balanceBefore",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 24796,
+                          "src": "2013:13:15",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "src": "1997:29:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "hexValue": "4c6f616e206e6f74207061696420696e2066756c6c",
+                        "id": 24848,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "2028:23:15",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_9f234a3d110722347d0278b6078daf16430ad769aff9c3c1b3675525180e4a79",
+                          "typeString": "literal_string \"Loan not paid in full\""
+                        },
+                        "value": "Loan not paid in full"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_9f234a3d110722347d0278b6078daf16430ad769aff9c3c1b3675525180e4a79",
+                          "typeString": "literal_string \"Loan not paid in full\""
+                        }
+                      ],
+                      "id": 24844,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        -18,
+                        -18
+                      ],
+                      "referencedDeclaration": -18,
+                      "src": "1989:7:15",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 24849,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1989:63:15",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 24850,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1989:63:15"
+                }
+              ]
+            },
+            "documentation": {
+              "id": 24781,
+              "nodeType": "StructuredDocumentation",
+              "src": "881:120:15",
+              "text": " @notice Gives out flashLoan to an existing customer.\n @param _amount The amount to be borrowed."
+            },
+            "functionSelector": "9ab603b9",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "flashLoan",
+            "nameLocation": "1015:9:15",
+            "parameters": {
+              "id": 24784,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 24783,
+                  "mutability": "mutable",
+                  "name": "_amount",
+                  "nameLocation": "1033:7:15",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 24852,
+                  "src": "1025:15:15",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 24782,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1025:7:15",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1024:17:15"
+            },
+            "returnParameters": {
+              "id": 24785,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1051:0:15"
+            },
+            "scope": 24873,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 24862,
+            "nodeType": "FunctionDefinition",
+            "src": "2116:92:15",
+            "body": {
+              "id": 24861,
+              "nodeType": "Block",
+              "src": "2175:33:15",
+              "statements": [
+                {
+                  "expression": {
+                    "id": 24859,
+                    "name": "carMarket",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 24759,
+                    "src": "2192:9:15",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ICarMarket_$25232",
+                      "typeString": "contract ICarMarket"
+                    }
+                  },
+                  "functionReturnParameters": 24858,
+                  "id": 24860,
+                  "nodeType": "Return",
+                  "src": "2185:16:15"
+                }
+              ]
+            },
+            "documentation": {
+              "id": 24853,
+              "nodeType": "StructuredDocumentation",
+              "src": "2065:46:15",
+              "text": " @dev Returns the car market"
+            },
+            "functionSelector": "747f8a88",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getCarMarket",
+            "nameLocation": "2125:12:15",
+            "parameters": {
+              "id": 24854,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "2137:2:15"
+            },
+            "returnParameters": {
+              "id": 24858,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 24857,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 24862,
+                  "src": "2163:10:15",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_ICarMarket_$25232",
+                    "typeString": "contract ICarMarket"
+                  },
+                  "typeName": {
+                    "id": 24856,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 24855,
+                      "name": "ICarMarket",
+                      "nameLocations": [
+                        "2163:10:15"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 25232,
+                      "src": "2163:10:15"
+                    },
+                    "referencedDeclaration": 25232,
+                    "src": "2163:10:15",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ICarMarket_$25232",
+                      "typeString": "contract ICarMarket"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "2162:12:15"
+            },
+            "scope": 24873,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 24872,
+            "nodeType": "FunctionDefinition",
+            "src": "2264:89:15",
+            "body": {
+              "id": 24871,
+              "nodeType": "Block",
+              "src": "2321:32:15",
+              "statements": [
+                {
+                  "expression": {
+                    "id": 24869,
+                    "name": "carToken",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 24756,
+                    "src": "2338:8:15",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ICarToken_$25242",
+                      "typeString": "contract ICarToken"
+                    }
+                  },
+                  "functionReturnParameters": 24868,
+                  "id": 24870,
+                  "nodeType": "Return",
+                  "src": "2331:15:15"
+                }
+              ]
+            },
+            "documentation": {
+              "id": 24863,
+              "nodeType": "StructuredDocumentation",
+              "src": "2214:45:15",
+              "text": " @dev Returns the car token"
+            },
+            "functionSelector": "d93e8a95",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getCarToken",
+            "nameLocation": "2273:11:15",
+            "parameters": {
+              "id": 24864,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "2284:2:15"
+            },
+            "returnParameters": {
+              "id": 24868,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 24867,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 24872,
+                  "src": "2310:9:15",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_ICarToken_$25242",
+                    "typeString": "contract ICarToken"
+                  },
+                  "typeName": {
+                    "id": 24866,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 24865,
+                      "name": "ICarToken",
+                      "nameLocations": [
+                        "2310:9:15"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 25242,
+                      "src": "2310:9:15"
+                    },
+                    "referencedDeclaration": 25242,
+                    "src": "2310:9:15",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ICarToken_$25242",
+                      "typeString": "contract ICarToken"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "2309:11:15"
+            },
+            "scope": 24873,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "CarFactory",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": {
+          "id": 24749,
+          "nodeType": "StructuredDocumentation",
+          "src": "146:205:15",
+          "text": " @title CarFactory\n @author Jelo\n @notice This is a contract that handles crucial changes in the car company.\n         It also gives out flashloans to existing customers of the car company."
+        },
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          24873
+        ],
+        "name": "CarFactory",
+        "nameLocation": "361:10:15",
+        "scope": 24874,
+        "usedErrors": []
+      }
+    ],
+    "license": "GPL-3.0"
+  },
+  "id": 15
+}
