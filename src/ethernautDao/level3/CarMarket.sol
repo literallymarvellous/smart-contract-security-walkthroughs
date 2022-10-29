@@ -6,6 +6,17 @@ import "./interfaces/ICarMarket.sol";
 import "./interfaces/ICarToken.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
+// why would this work?
+// the flashloan() checks only the balance of carFactory before and after the loan which remains at 100_000 ETH
+// but doesn't check that of carMarket, which is the address that actually sends the loan
+
+// why does carMarket send the loan?
+// it's a delegateCall, the msg.sender == the address that initates the delegate call, which is the carMarket address
+// msg.value and storage variables read from the context of carMarket address.
+// attack (msg.sender1) (call)=> carMarket.fallback() (msg.sender2)  (delegatecall)=> carFactory.flashloan()
+// so when carToken.transfer(msg.sender, amount) is called in flashloan()
+// from: msg.sender2 (carMarket), to: msg.sender1 (attack) value: 100_000 ether
+
 /**
  * @title CarMarket
  * @author Jelo
