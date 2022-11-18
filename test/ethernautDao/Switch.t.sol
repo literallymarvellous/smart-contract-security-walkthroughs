@@ -14,7 +14,6 @@ contract SwitchTest is Test {
     // using address directly
     function testAttack() public {
         address alice = vm.addr(1);
-
         // generate hash to be signed.
         bytes32 addressHash = keccak256(abi.encodePacked(alice));
         bytes32 hash = keccak256(
