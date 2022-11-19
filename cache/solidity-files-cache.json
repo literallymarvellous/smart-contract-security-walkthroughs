@@ -513,6 +513,45 @@
         }
       }
     },
+    "lib/openzeppelin-contracts/contracts/security/ReentrancyGuard.sol": {
+      "lastModificationDate": 1666097382332,
+      "contentHash": "8c535ea51494b04d8b067295f200e3e7",
+      "sourceName": "lib/openzeppelin-contracts/contracts/security/ReentrancyGuard.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "ReentrancyGuard": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "ReentrancyGuard.sol/ReentrancyGuard.json"
+        }
+      }
+    },
     "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol": {
       "lastModificationDate": 1666097382334,
       "contentHash": "92cc1aad41bdb18ca20f6e03f461de7d",
@@ -1341,6 +1380,86 @@
         }
       }
     },
+    "lib/solmate/src/test/utils/mocks/MockERC20.sol": {
+      "lastModificationDate": 1666097367498,
+      "contentHash": "8cec77cb7dcd2d03e318bc0916a925f3",
+      "sourceName": "lib/solmate/src/test/utils/mocks/MockERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/solmate/src/tokens/ERC20.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "MockERC20": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "MockERC20.sol/MockERC20.json"
+        }
+      }
+    },
+    "lib/solmate/src/tokens/ERC20.sol": {
+      "lastModificationDate": 1666097367499,
+      "contentHash": "0c7c7ada139062536af09d69d96d395c",
+      "sourceName": "lib/solmate/src/tokens/ERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "ERC20": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "ERC20.sol/ERC20.json"
+        }
+      }
+    },
     "script/Counter.s.sol": {
       "lastModificationDate": 1666097249748,
       "contentHash": "0705c52104730a78aef4aa6694175c81",
@@ -1785,6 +1904,146 @@
       "artifacts": {
         "Vesting": {
           "0.8.17+commit.8df45f5f.Darwin.appleclang": "Vesting.sol/Vesting.json"
+        }
+      }
+    },
+    "src/ethernautDao/level11/RewardToken.sol": {
+      "lastModificationDate": 1668845004698,
+      "contentHash": "3d131d62f848b14e86fb8db85c8b330b",
+      "sourceName": "src/ethernautDao/level11/RewardToken.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/access/Ownable.sol",
+        "lib/openzeppelin-contracts/contracts/security/ReentrancyGuard.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol",
+        "lib/openzeppelin-contracts/contracts/utils/math/Math.sol",
+        "lib/openzeppelin-contracts/contracts/utils/math/SafeMath.sol"
+      ],
+      "versionRequirement": "^0.8.4",
+      "artifacts": {
+        "RewardToken": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "RewardToken.sol/RewardToken.json"
+        }
+      }
+    },
+    "src/ethernautDao/level11/Staking.sol": {
+      "lastModificationDate": 1668835990079,
+      "contentHash": "8835e0720eac7eb2e07860111f631ca0",
+      "sourceName": "src/ethernautDao/level11/Staking.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/access/Ownable.sol",
+        "lib/openzeppelin-contracts/contracts/security/Pausable.sol",
+        "lib/openzeppelin-contracts/contracts/security/ReentrancyGuard.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol",
+        "lib/openzeppelin-contracts/contracts/utils/math/Math.sol",
+        "lib/openzeppelin-contracts/contracts/utils/math/SafeMath.sol"
+      ],
+      "versionRequirement": "^0.8.4",
+      "artifacts": {
+        "Staking": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Staking.sol/Staking.json"
+        }
+      }
+    },
+    "src/ethernautDao/level11/StakingToken.sol": {
+      "lastModificationDate": 1668845043245,
+      "contentHash": "5f627a8cb22aab002be9b886d4e9772e",
+      "sourceName": "src/ethernautDao/level11/StakingToken.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/access/Ownable.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol"
+      ],
+      "versionRequirement": "^0.8.4",
+      "artifacts": {
+        "StakingToken": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "StakingToken.sol/StakingToken.json"
         }
       }
     },
@@ -2949,6 +3208,67 @@
         }
       }
     },
+    "test/ethernautDao/Staking.t.sol": {
+      "lastModificationDate": 1668846078883,
+      "contentHash": "cb9e73006fed992078e767de3f1f3b2e",
+      "sourceName": "test/ethernautDao/Staking.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Script.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "lib/openzeppelin-contracts/contracts/access/Ownable.sol",
+        "lib/openzeppelin-contracts/contracts/security/Pausable.sol",
+        "lib/openzeppelin-contracts/contracts/security/ReentrancyGuard.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol",
+        "lib/openzeppelin-contracts/contracts/utils/math/Math.sol",
+        "lib/openzeppelin-contracts/contracts/utils/math/SafeMath.sol",
+        "lib/solmate/src/test/utils/mocks/MockERC20.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "src/ethernautDao/level11/RewardToken.sol",
+        "src/ethernautDao/level11/Staking.sol",
+        "src/ethernautDao/level11/StakingToken.sol"
+      ],
+      "versionRequirement": "^0.8.15",
+      "artifacts": {
+        "StakingTest": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Staking.t.sol/StakingTest.json"
+        }
+      }
+    },
     "test/ethernautDao/Switch.t.sol": {
       "lastModificationDate": 1667036795162,
       "contentHash": "8d63e665d4691daad45b14aedca1e54e",
@@ -2998,8 +3318,8 @@
       }
     },
     "test/ethernautDao/Vault.t.sol": {
-      "lastModificationDate": 1668800332278,
-      "contentHash": "b90653826e45ed051130794274511f95",
+      "lastModificationDate": 1668800395403,
+      "contentHash": "f8ab15297cd5f19fcebe159065e42f32",
       "sourceName": "test/ethernautDao/Vault.t.sol",
       "solcConfig": {
         "settings": {

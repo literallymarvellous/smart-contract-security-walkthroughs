@@ -1,0 +1,3576 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "contract Staking",
+          "name": "_staking",
+          "type": "address"
+        },
+        {
+          "internalType": "contract MockERC20",
+          "name": "_token",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "attack",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "stake",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x608060405234801561001057600080fd5b5060405161029638038061029683398101604081905261002f91610078565b600080546001600160a01b039384166001600160a01b031991821617909155600180549290931691161790556100b2565b6001600160a01b038116811461007557600080fd5b50565b6000806040838503121561008b57600080fd5b825161009681610060565b60208401519092506100a781610060565b809150509250929050565b6101d5806100c16000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c80633a4b66f11461003b5780639e5faafc14610045575b600080fd5b61004361004d565b005b610043610135565b60015460005460405163095ea7b360e01b81526001600160a01b039182166004820152670de0b6b3a7640000602482015291169063095ea7b3906044016020604051808303816000875af11580156100a9573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906100cd9190610176565b5060005460405163534a7e1d60e11b81526706f05b59d3b2000060048201526001600160a01b039091169063a694fc3a90602401600060405180830381600087803b15801561011b57600080fd5b505af115801561012f573d6000803e3d6000fd5b50505050565b6000805460408051631e8c5c8960e11b815290516001600160a01b0390921692633d18b9129260048084019382900301818387803b15801561011b57600080fd5b60006020828403121561018857600080fd5b8151801515811461019857600080fd5b939250505056fea264697066735822122001dd2d5553d1b8b655ce8f52c165da270c6888a5eea8de5719cd3ea06ee3fafd64736f6c63430008110033",
+    "sourceMap": "198:385:17:-:0;;;272:114;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;330:7;:18;;-1:-1:-1;;;;;330:18:17;;;-1:-1:-1;;;;;;330:18:17;;;;;;;;358:21;;;;;;;;;;;198:385;;14:140:18;-1:-1:-1;;;;;98:31:18;;88:42;;78:70;;144:1;141;134:12;78:70;14:140;:::o;159:439::-;274:6;282;335:2;323:9;314:7;310:23;306:32;303:52;;;351:1;348;341:12;303:52;383:9;377:16;402:40;436:5;402:40;:::i;:::-;511:2;496:18;;490:25;461:5;;-1:-1:-1;524:42:18;490:25;524:42;:::i;:::-;585:7;575:17;;;159:439;;;;;:::o;:::-;198:385:17;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c80633a4b66f11461003b5780639e5faafc14610045575b600080fd5b61004361004d565b005b610043610135565b60015460005460405163095ea7b360e01b81526001600160a01b039182166004820152670de0b6b3a7640000602482015291169063095ea7b3906044016020604051808303816000875af11580156100a9573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906100cd9190610176565b5060005460405163534a7e1d60e11b81526706f05b59d3b2000060048201526001600160a01b039091169063a694fc3a90602401600060405180830381600087803b15801561011b57600080fd5b505af115801561012f573d6000803e3d6000fd5b50505050565b6000805460408051631e8c5c8960e11b815290516001600160a01b0390921692633d18b9129260048084019382900301818387803b15801561011b57600080fd5b60006020828403121561018857600080fd5b8151801515811461019857600080fd5b939250505056fea264697066735822122001dd2d5553d1b8b655ce8f52c165da270c6888a5eea8de5719cd3ea06ee3fafd64736f6c63430008110033",
+    "sourceMap": "198:385:17:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;392:122;;;:::i;:::-;;520:61;;;:::i;392:122::-;426:12;;;455:7;426:47;;-1:-1:-1;;;426:47:17;;-1:-1:-1;;;;;455:7:17;;;426:47;;;214:51:18;465:7:17;281:18:18;;;274:34;426:12:17;;;:20;;187:18:18;;426:47:17;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;-1:-1:-1;483:7:17;;:24;;-1:-1:-1;;;483:24:17;;497:9;483:24;;;772:25:18;-1:-1:-1;;;;;483:7:17;;;;:13;;745:18:18;;483:24:17;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;392:122::o;520:61::-;555:7;;;:19;;;-1:-1:-1;;;555:19:17;;;;-1:-1:-1;;;;;555:7:17;;;;:17;;:19;;;;;;;;;;:7;;:19;;;;;;;;;;319:277:18;386:6;439:2;427:9;418:7;414:23;410:32;407:52;;;455:1;452;445:12;407:52;487:9;481:16;540:5;533:13;526:21;519:5;516:32;506:60;;562:1;559;552:12;506:60;585:5;319:277;-1:-1:-1;;;319:277:18:o",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "attack()": "9e5faafc",
+    "stake()": "3a4b66f1"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"contract Staking\",\"name\":\"_staking\",\"type\":\"address\"},{\"internalType\":\"contract MockERC20\",\"name\":\"_token\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"attack\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"stake\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"test/ethernautDao/Staking.t.sol\":\"Attacker\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin-upgradeable/=lib/openzeppelin-contracts-upgradeable/\",\":@openzeppelin/=lib/openzeppelin-contracts/\",\":@solmate/=lib/solmate/src/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/contracts/\",\":solmate/=lib/solmate/src/\"]},\"sources\":{\"lib/forge-std/lib/ds-test/src/test.sol\":{\"keccak256\":\"0xb39cd1d5220cb474947b131e15a4538334b7e886af244b440ae5c9c6bba96a54\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://3101520221449ac0070bda3881311a71d9aa87e5210765e875246922cb5cb5f5\",\"dweb:/ipfs/Qmbg6kAHNoG7ox9N9Xqd9Ere2H2XixMFWFqvyPwFCzB3Gr\"]},\"lib/forge-std/src/Script.sol\":{\"keccak256\":\"0x9d09c1e55cd508d3376cff9961625d51d73f8ce075ec1e9deed41408a4556e00\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8880c5551daf337ab91665a9ce593df67a9eb11b0bee820f631d324d2fdd3a8b\",\"dweb:/ipfs/QmNpvSBGnS9Jr6Swd6XKsijG59a4yjYemWCFwprjKFkpNC\"]},\"lib/forge-std/src/StdJson.sol\":{\"keccak256\":\"0x1297a1cc393bc8163ccf143e5335536e78cb25ac24a4f6dfdb25f5746dd4827e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://945ccffad9fc09d2aa0ac200a80dcfa2f491dba8680fc9c3d3d450d891284b87\",\"dweb:/ipfs/QmYSfFb1L6LN1ZB9KWzZqxt2iAbpuFDskBcU1Bz4RiyuQ5\"]},\"lib/forge-std/src/Test.sol\":{\"keccak256\":\"0x6c9cbd51234372b66bf7c146870edf0855770c46e960a8fae8f354ddf382876b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://fd0ff1f449294dd1447b9d483c52d78e137d8cac518646e76df9fdd4d185d6c2\",\"dweb:/ipfs/QmS3JP4vKgvAWo8Tc7zVrGxbdR7t37ayk1mTHN3seD6UAZ\"]},\"lib/forge-std/src/Vm.sol\":{\"keccak256\":\"0x1a5767028a0c3985e991456fc9650055e28b01b787c56b11f66ac30498a153ab\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f86887212eacca450a15a8a5bf9fe83fd91a2ba623df8e9c32c75a31824c8ea2\",\"dweb:/ipfs/QmTUHBNdZwntgjbFZne7fY9ZJLNGYWaq3uWfGk6FyqdAkB\"]},\"lib/forge-std/src/console.sol\":{\"keccak256\":\"0x91d5413c2434ca58fd278b6e1e79fd98d10c83931cc2596a6038eee4daeb34ba\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://91ccea707361e48b9b7a161fe81f496b9932bc471e9c4e4e1e9c283f2453cc70\",\"dweb:/ipfs/QmcB66sZhQ6Kz7MUHcLE78YXRUZxoZnnxZjN6yATsbB2ec\"]},\"lib/forge-std/src/console2.sol\":{\"keccak256\":\"0xbeb823fcdb356244a83aaccdf828ad019ecc1ffaa3dff18e624fc6d5714ea671\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4cbe9400340e5f9ec55e2aff3bad1c15fa3afbbe37e80800e6f3fed2ad26854f\",\"dweb:/ipfs/QmdJBABsuXkvWxVzEyGXsTE3vyfBPXDdw5xvvtUz3JeoYW\"]},\"lib/openzeppelin-contracts/contracts/access/Ownable.sol\":{\"keccak256\":\"0xa94b34880e3c1b0b931662cb1c09e5dfa6662f31cba80e07c5ee71cd135c9673\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://40fb1b5102468f783961d0af743f91b9980cf66b50d1d12009f6bb1869cea4d2\",\"dweb:/ipfs/QmYqEbJML4jB1GHbzD4cUZDtJg5wVwNm3vDJq1GbyDus8y\"]},\"lib/openzeppelin-contracts/contracts/security/Pausable.sol\":{\"keccak256\":\"0x0849d93b16c9940beb286a7864ed02724b248b93e0d80ef6355af5ef15c64773\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4ddabb16009cd17eaca3143feadf450ac13e72919ebe2ca50e00f61cb78bc004\",\"dweb:/ipfs/QmSPwPxX7d6TTWakN5jy5wsaGkS1y9TW8fuhGSraMkLk2B\"]},\"lib/openzeppelin-contracts/contracts/security/ReentrancyGuard.sol\":{\"keccak256\":\"0x4f2c7c1826779a4f444e5b36553102e4cff85ddb7d1ff65c15a6d6e978dcc8c8\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://aa48b04a7f9b986687fc4e6984db2fd5760b5827d537c019d351b95414f8394e\",\"dweb:/ipfs/QmeDbBY8M8dgeornLuB8m99gu915mRTZQ1Ggenio9BRHf2\"]},\"lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol\":{\"keccak256\":\"0x9750c6b834f7b43000631af5cc30001c5f547b3ceb3635488f140f60e897ea6b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5a7d5b1ef5d8d5889ad2ed89d8619c09383b80b72ab226e0fe7bde1636481e34\",\"dweb:/ipfs/QmebXWgtEfumQGBdVeM6c71McLixYXQP5Bk6kKXuoY4Bmr\"]},\"lib/openzeppelin-contracts/contracts/utils/Context.sol\":{\"keccak256\":\"0xe2e337e6dde9ef6b680e07338c493ebea1b5fd09b43424112868e9cc1706bca7\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6df0ddf21ce9f58271bdfaa85cde98b200ef242a05a3f85c2bc10a8294800a92\",\"dweb:/ipfs/QmRK2Y5Yc6BK7tGKkgsgn3aJEQGi5aakeSPZvS65PV8Xp3\"]},\"lib/openzeppelin-contracts/contracts/utils/math/Math.sol\":{\"keccak256\":\"0xbb9b373ec337797b9f8822171cb191095cb11e729a4fde4c207d25b8b642fb93\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6fba7f4448f95e3a42fba5305cc02403eee23aa62e742a0ae7bca609bdaf89da\",\"dweb:/ipfs/QmSXV5FapsVemawU9Zzkx3u3DNLhCaS9MnwcZLsPpMSKnz\"]},\"lib/openzeppelin-contracts/contracts/utils/math/SafeMath.sol\":{\"keccak256\":\"0x0f633a0223d9a1dcccfcf38a64c9de0874dfcbfac0c6941ccf074d63a2ce0e1e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://864a40efcffdf408044c332a5aa38ec5618ed7b4eecb8f65faf45671bd6cdc65\",\"dweb:/ipfs/QmQJquTMtc6fgm5JQzGdsGpA2fqBe3MHWEdt2qzaLySMdN\"]},\"lib/solmate/src/test/utils/mocks/MockERC20.sol\":{\"keccak256\":\"0x525129ccb4103c9ecb8f235618d2ff4a8ffde4b8654f7c17766ad175d10ef466\",\"license\":\"AGPL-3.0-only\",\"urls\":[\"bzz-raw://45692a21807ba815c0cf0bfc7d633a14a6cb9ba863ab53f18fc639375a72125e\",\"dweb:/ipfs/QmSrqxyodjDtSU1Dc6G3ScnNc9CFjMnAeHpK8a8guM3nJu\"]},\"lib/solmate/src/tokens/ERC20.sol\":{\"keccak256\":\"0xcdfd8db76b2a3415620e4d18cc5545f3d50de792dbf2c3dd5adb40cbe6f94b10\",\"license\":\"AGPL-3.0-only\",\"urls\":[\"bzz-raw://57b3ab70cde374af1cf2c9888636e8de6cf660f087b1c9abd805e9271e19fa35\",\"dweb:/ipfs/QmNrLDBAHYFjpjSd12jerm1AdBkDqEYUUaXgnT854BUZ97\"]},\"src/ethernautDao/level11/Staking.sol\":{\"keccak256\":\"0x1a656ab4317ab2d83c7b712c789fd0afec3a2dd7330171df119172feafdeb9f6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://e40951887a898257ea3899490f633b0a581985f2e99e62162d9d484a7de6a99c\",\"dweb:/ipfs/QmP2NfJec8GCinjibF2A51JDEGHmgvdxXYoVNQwzicu1en\"]},\"test/ethernautDao/Staking.t.sol\":{\"keccak256\":\"0xf357b435f28f03768465d1cc8769a3a5ee32856e7792a44bd872a0dc0454d4f2\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://d20d3a8dc56ba6430ddec9316df5fb2f8a969882f8b2c17b767d8738fd0c036b\",\"dweb:/ipfs/QmRVm4f6GCaUzFrhhbEPE4ffUDbtsPB9ktKh2XmF5cHkar\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.17+commit.8df45f5f"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "contract Staking",
+              "name": "_staking",
+              "type": "address"
+            },
+            {
+              "internalType": "contract MockERC20",
+              "name": "_token",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "constructor"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "attack"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "stake"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@openzeppelin-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+        ":@openzeppelin/=lib/openzeppelin-contracts/",
+        ":@solmate/=lib/solmate/src/",
+        ":ds-test/=lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/",
+        ":openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+        ":openzeppelin-contracts/=lib/openzeppelin-contracts/contracts/",
+        ":solmate/=lib/solmate/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "test/ethernautDao/Staking.t.sol": "Attacker"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "lib/forge-std/lib/ds-test/src/test.sol": {
+        "keccak256": "0xb39cd1d5220cb474947b131e15a4538334b7e886af244b440ae5c9c6bba96a54",
+        "urls": [
+          "bzz-raw://3101520221449ac0070bda3881311a71d9aa87e5210765e875246922cb5cb5f5",
+          "dweb:/ipfs/Qmbg6kAHNoG7ox9N9Xqd9Ere2H2XixMFWFqvyPwFCzB3Gr"
+        ],
+        "license": "GPL-3.0-or-later"
+      },
+      "lib/forge-std/src/Script.sol": {
+        "keccak256": "0x9d09c1e55cd508d3376cff9961625d51d73f8ce075ec1e9deed41408a4556e00",
+        "urls": [
+          "bzz-raw://8880c5551daf337ab91665a9ce593df67a9eb11b0bee820f631d324d2fdd3a8b",
+          "dweb:/ipfs/QmNpvSBGnS9Jr6Swd6XKsijG59a4yjYemWCFwprjKFkpNC"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/StdJson.sol": {
+        "keccak256": "0x1297a1cc393bc8163ccf143e5335536e78cb25ac24a4f6dfdb25f5746dd4827e",
+        "urls": [
+          "bzz-raw://945ccffad9fc09d2aa0ac200a80dcfa2f491dba8680fc9c3d3d450d891284b87",
+          "dweb:/ipfs/QmYSfFb1L6LN1ZB9KWzZqxt2iAbpuFDskBcU1Bz4RiyuQ5"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/Test.sol": {
+        "keccak256": "0x6c9cbd51234372b66bf7c146870edf0855770c46e960a8fae8f354ddf382876b",
+        "urls": [
+          "bzz-raw://fd0ff1f449294dd1447b9d483c52d78e137d8cac518646e76df9fdd4d185d6c2",
+          "dweb:/ipfs/QmS3JP4vKgvAWo8Tc7zVrGxbdR7t37ayk1mTHN3seD6UAZ"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/Vm.sol": {
+        "keccak256": "0x1a5767028a0c3985e991456fc9650055e28b01b787c56b11f66ac30498a153ab",
+        "urls": [
+          "bzz-raw://f86887212eacca450a15a8a5bf9fe83fd91a2ba623df8e9c32c75a31824c8ea2",
+          "dweb:/ipfs/QmTUHBNdZwntgjbFZne7fY9ZJLNGYWaq3uWfGk6FyqdAkB"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/console.sol": {
+        "keccak256": "0x91d5413c2434ca58fd278b6e1e79fd98d10c83931cc2596a6038eee4daeb34ba",
+        "urls": [
+          "bzz-raw://91ccea707361e48b9b7a161fe81f496b9932bc471e9c4e4e1e9c283f2453cc70",
+          "dweb:/ipfs/QmcB66sZhQ6Kz7MUHcLE78YXRUZxoZnnxZjN6yATsbB2ec"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/console2.sol": {
+        "keccak256": "0xbeb823fcdb356244a83aaccdf828ad019ecc1ffaa3dff18e624fc6d5714ea671",
+        "urls": [
+          "bzz-raw://4cbe9400340e5f9ec55e2aff3bad1c15fa3afbbe37e80800e6f3fed2ad26854f",
+          "dweb:/ipfs/QmdJBABsuXkvWxVzEyGXsTE3vyfBPXDdw5xvvtUz3JeoYW"
+        ],
+        "license": "MIT"
+      },
+      "lib/openzeppelin-contracts/contracts/access/Ownable.sol": {
+        "keccak256": "0xa94b34880e3c1b0b931662cb1c09e5dfa6662f31cba80e07c5ee71cd135c9673",
+        "urls": [
+          "bzz-raw://40fb1b5102468f783961d0af743f91b9980cf66b50d1d12009f6bb1869cea4d2",
+          "dweb:/ipfs/QmYqEbJML4jB1GHbzD4cUZDtJg5wVwNm3vDJq1GbyDus8y"
+        ],
+        "license": "MIT"
+      },
+      "lib/openzeppelin-contracts/contracts/security/Pausable.sol": {
+        "keccak256": "0x0849d93b16c9940beb286a7864ed02724b248b93e0d80ef6355af5ef15c64773",
+        "urls": [
+          "bzz-raw://4ddabb16009cd17eaca3143feadf450ac13e72919ebe2ca50e00f61cb78bc004",
+          "dweb:/ipfs/QmSPwPxX7d6TTWakN5jy5wsaGkS1y9TW8fuhGSraMkLk2B"
+        ],
+        "license": "MIT"
+      },
+      "lib/openzeppelin-contracts/contracts/security/ReentrancyGuard.sol": {
+        "keccak256": "0x4f2c7c1826779a4f444e5b36553102e4cff85ddb7d1ff65c15a6d6e978dcc8c8",
+        "urls": [
+          "bzz-raw://aa48b04a7f9b986687fc4e6984db2fd5760b5827d537c019d351b95414f8394e",
+          "dweb:/ipfs/QmeDbBY8M8dgeornLuB8m99gu915mRTZQ1Ggenio9BRHf2"
+        ],
+        "license": "MIT"
+      },
+      "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol": {
+        "keccak256": "0x9750c6b834f7b43000631af5cc30001c5f547b3ceb3635488f140f60e897ea6b",
+        "urls": [
+          "bzz-raw://5a7d5b1ef5d8d5889ad2ed89d8619c09383b80b72ab226e0fe7bde1636481e34",
+          "dweb:/ipfs/QmebXWgtEfumQGBdVeM6c71McLixYXQP5Bk6kKXuoY4Bmr"
+        ],
+        "license": "MIT"
+      },
+      "lib/openzeppelin-contracts/contracts/utils/Context.sol": {
+        "keccak256": "0xe2e337e6dde9ef6b680e07338c493ebea1b5fd09b43424112868e9cc1706bca7",
+        "urls": [
+          "bzz-raw://6df0ddf21ce9f58271bdfaa85cde98b200ef242a05a3f85c2bc10a8294800a92",
+          "dweb:/ipfs/QmRK2Y5Yc6BK7tGKkgsgn3aJEQGi5aakeSPZvS65PV8Xp3"
+        ],
+        "license": "MIT"
+      },
+      "lib/openzeppelin-contracts/contracts/utils/math/Math.sol": {
+        "keccak256": "0xbb9b373ec337797b9f8822171cb191095cb11e729a4fde4c207d25b8b642fb93",
+        "urls": [
+          "bzz-raw://6fba7f4448f95e3a42fba5305cc02403eee23aa62e742a0ae7bca609bdaf89da",
+          "dweb:/ipfs/QmSXV5FapsVemawU9Zzkx3u3DNLhCaS9MnwcZLsPpMSKnz"
+        ],
+        "license": "MIT"
+      },
+      "lib/openzeppelin-contracts/contracts/utils/math/SafeMath.sol": {
+        "keccak256": "0x0f633a0223d9a1dcccfcf38a64c9de0874dfcbfac0c6941ccf074d63a2ce0e1e",
+        "urls": [
+          "bzz-raw://864a40efcffdf408044c332a5aa38ec5618ed7b4eecb8f65faf45671bd6cdc65",
+          "dweb:/ipfs/QmQJquTMtc6fgm5JQzGdsGpA2fqBe3MHWEdt2qzaLySMdN"
+        ],
+        "license": "MIT"
+      },
+      "lib/solmate/src/test/utils/mocks/MockERC20.sol": {
+        "keccak256": "0x525129ccb4103c9ecb8f235618d2ff4a8ffde4b8654f7c17766ad175d10ef466",
+        "urls": [
+          "bzz-raw://45692a21807ba815c0cf0bfc7d633a14a6cb9ba863ab53f18fc639375a72125e",
+          "dweb:/ipfs/QmSrqxyodjDtSU1Dc6G3ScnNc9CFjMnAeHpK8a8guM3nJu"
+        ],
+        "license": "AGPL-3.0-only"
+      },
+      "lib/solmate/src/tokens/ERC20.sol": {
+        "keccak256": "0xcdfd8db76b2a3415620e4d18cc5545f3d50de792dbf2c3dd5adb40cbe6f94b10",
+        "urls": [
+          "bzz-raw://57b3ab70cde374af1cf2c9888636e8de6cf660f087b1c9abd805e9271e19fa35",
+          "dweb:/ipfs/QmNrLDBAHYFjpjSd12jerm1AdBkDqEYUUaXgnT854BUZ97"
+        ],
+        "license": "AGPL-3.0-only"
+      },
+      "src/ethernautDao/level11/Staking.sol": {
+        "keccak256": "0x1a656ab4317ab2d83c7b712c789fd0afec3a2dd7330171df119172feafdeb9f6",
+        "urls": [
+          "bzz-raw://e40951887a898257ea3899490f633b0a581985f2e99e62162d9d484a7de6a99c",
+          "dweb:/ipfs/QmP2NfJec8GCinjibF2A51JDEGHmgvdxXYoVNQwzicu1en"
+        ],
+        "license": "MIT"
+      },
+      "test/ethernautDao/Staking.t.sol": {
+        "keccak256": "0xf357b435f28f03768465d1cc8769a3a5ee32856e7792a44bd872a0dc0454d4f2",
+        "urls": [
+          "bzz-raw://d20d3a8dc56ba6430ddec9316df5fb2f8a969882f8b2c17b767d8738fd0c036b",
+          "dweb:/ipfs/QmRVm4f6GCaUzFrhhbEPE4ffUDbtsPB9ktKh2XmF5cHkar"
+        ],
+        "license": "UNLICENSED"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "test/ethernautDao/Staking.t.sol",
+    "id": 26191,
+    "exportedSymbols": {
+      "Attacker": [
+        25993
+      ],
+      "Context": [
+        23612
+      ],
+      "DSTest": [
+        1786
+      ],
+      "ERC20": [
+        25225
+      ],
+      "IERC20": [
+        23590
+      ],
+      "Math": [
+        24477
+      ],
+      "MockERC20": [
+        24837
+      ],
+      "Ownable": [
+        23339
+      ],
+      "Pausable": [
+        23447
+      ],
+      "ReentrancyGuard": [
+        23512
+      ],
+      "SafeMath": [
+        24789
+      ],
+      "Script": [
+        2049
+      ],
+      "Staking": [
+        25934
+      ],
+      "StakingTest": [
+        26190
+      ],
+      "StdStorage": [
+        5077
+      ],
+      "Test": [
+        4979
+      ],
+      "Vm": [
+        7098
+      ],
+      "console": [
+        15162
+      ],
+      "console2": [
+        23226
+      ],
+      "stdError": [
+        5049
+      ],
+      "stdJson": [
+        2409
+      ],
+      "stdMath": [
+        6318
+      ],
+      "stdStorage": [
+        6179
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "39:2083:17",
+    "nodes": [
+      {
+        "id": 25936,
+        "nodeType": "PragmaDirective",
+        "src": "39:24:17",
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".15"
+        ]
+      },
+      {
+        "id": 25937,
+        "nodeType": "ImportDirective",
+        "src": "65:28:17",
+        "absolutePath": "lib/forge-std/src/Test.sol",
+        "file": "forge-std/Test.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 26191,
+        "sourceUnit": 6319,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 25938,
+        "nodeType": "ImportDirective",
+        "src": "94:52:17",
+        "absolutePath": "src/ethernautDao/level11/Staking.sol",
+        "file": "../../src/ethernautDao/level11/Staking.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 26191,
+        "sourceUnit": 25935,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 25939,
+        "nodeType": "ImportDirective",
+        "src": "147:49:17",
+        "absolutePath": "lib/solmate/src/test/utils/mocks/MockERC20.sol",
+        "file": "@solmate/test/utils/mocks/MockERC20.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 26191,
+        "sourceUnit": 24838,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 25993,
+        "nodeType": "ContractDefinition",
+        "src": "198:385:17",
+        "nodes": [
+          {
+            "id": 25942,
+            "nodeType": "VariableDeclaration",
+            "src": "222:15:17",
+            "constant": false,
+            "mutability": "mutable",
+            "name": "staking",
+            "nameLocation": "230:7:17",
+            "scope": 25993,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_Staking_$25934",
+              "typeString": "contract Staking"
+            },
+            "typeName": {
+              "id": 25941,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 25940,
+                "name": "Staking",
+                "nameLocations": [
+                  "222:7:17"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 25934,
+                "src": "222:7:17"
+              },
+              "referencedDeclaration": 25934,
+              "src": "222:7:17",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Staking_$25934",
+                "typeString": "contract Staking"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 25945,
+            "nodeType": "VariableDeclaration",
+            "src": "243:22:17",
+            "constant": false,
+            "mutability": "mutable",
+            "name": "stakingToken",
+            "nameLocation": "253:12:17",
+            "scope": 25993,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_MockERC20_$24837",
+              "typeString": "contract MockERC20"
+            },
+            "typeName": {
+              "id": 25944,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 25943,
+                "name": "MockERC20",
+                "nameLocations": [
+                  "243:9:17"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 24837,
+                "src": "243:9:17"
+              },
+              "referencedDeclaration": 24837,
+              "src": "243:9:17",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_MockERC20_$24837",
+                "typeString": "contract MockERC20"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 25963,
+            "nodeType": "FunctionDefinition",
+            "src": "272:114:17",
+            "body": {
+              "id": 25962,
+              "nodeType": "Block",
+              "src": "320:66:17",
+              "statements": [
+                {
+                  "expression": {
+                    "id": 25956,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 25954,
+                      "name": "staking",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 25942,
+                      "src": "330:7:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_Staking_$25934",
+                        "typeString": "contract Staking"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "id": 25955,
+                      "name": "_staking",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 25948,
+                      "src": "340:8:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_Staking_$25934",
+                        "typeString": "contract Staking"
+                      }
+                    },
+                    "src": "330:18:17",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_Staking_$25934",
+                      "typeString": "contract Staking"
+                    }
+                  },
+                  "id": 25957,
+                  "nodeType": "ExpressionStatement",
+                  "src": "330:18:17"
+                },
+                {
+                  "expression": {
+                    "id": 25960,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 25958,
+                      "name": "stakingToken",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 25945,
+                      "src": "358:12:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_MockERC20_$24837",
+                        "typeString": "contract MockERC20"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "id": 25959,
+                      "name": "_token",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 25951,
+                      "src": "373:6:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_MockERC20_$24837",
+                        "typeString": "contract MockERC20"
+                      }
+                    },
+                    "src": "358:21:17",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_MockERC20_$24837",
+                      "typeString": "contract MockERC20"
+                    }
+                  },
+                  "id": 25961,
+                  "nodeType": "ExpressionStatement",
+                  "src": "358:21:17"
+                }
+              ]
+            },
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "parameters": {
+              "id": 25952,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 25948,
+                  "mutability": "mutable",
+                  "name": "_staking",
+                  "nameLocation": "292:8:17",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 25963,
+                  "src": "284:16:17",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_Staking_$25934",
+                    "typeString": "contract Staking"
+                  },
+                  "typeName": {
+                    "id": 25947,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 25946,
+                      "name": "Staking",
+                      "nameLocations": [
+                        "284:7:17"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 25934,
+                      "src": "284:7:17"
+                    },
+                    "referencedDeclaration": 25934,
+                    "src": "284:7:17",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_Staking_$25934",
+                      "typeString": "contract Staking"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 25951,
+                  "mutability": "mutable",
+                  "name": "_token",
+                  "nameLocation": "312:6:17",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 25963,
+                  "src": "302:16:17",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_MockERC20_$24837",
+                    "typeString": "contract MockERC20"
+                  },
+                  "typeName": {
+                    "id": 25950,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 25949,
+                      "name": "MockERC20",
+                      "nameLocations": [
+                        "302:9:17"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 24837,
+                      "src": "302:9:17"
+                    },
+                    "referencedDeclaration": 24837,
+                    "src": "302:9:17",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_MockERC20_$24837",
+                      "typeString": "contract MockERC20"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "283:36:17"
+            },
+            "returnParameters": {
+              "id": 25953,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "320:0:17"
+            },
+            "scope": 25993,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 25983,
+            "nodeType": "FunctionDefinition",
+            "src": "392:122:17",
+            "body": {
+              "id": 25982,
+              "nodeType": "Block",
+              "src": "416:98:17",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "id": 25971,
+                            "name": "staking",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 25942,
+                            "src": "455:7:17",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_contract$_Staking_$25934",
+                              "typeString": "contract Staking"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_contract$_Staking_$25934",
+                              "typeString": "contract Staking"
+                            }
+                          ],
+                          "id": 25970,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "nodeType": "ElementaryTypeNameExpression",
+                          "src": "447:7:17",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_address_$",
+                            "typeString": "type(address)"
+                          },
+                          "typeName": {
+                            "id": 25969,
+                            "name": "address",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "447:7:17",
+                            "typeDescriptions": {}
+                          }
+                        },
+                        "id": 25972,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "nameLocations": [],
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "447:16:17",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      {
+                        "hexValue": "31",
+                        "id": 25973,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "465:7:17",
+                        "subdenomination": "ether",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_1000000000000000000_by_1",
+                          "typeString": "int_const 1000000000000000000"
+                        },
+                        "value": "1"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        {
+                          "typeIdentifier": "t_rational_1000000000000000000_by_1",
+                          "typeString": "int_const 1000000000000000000"
+                        }
+                      ],
+                      "expression": {
+                        "id": 25966,
+                        "name": "stakingToken",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 25945,
+                        "src": "426:12:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_MockERC20_$24837",
+                          "typeString": "contract MockERC20"
+                        }
+                      },
+                      "id": 25968,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "439:7:17",
+                      "memberName": "approve",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 24942,
+                      "src": "426:20:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$_t_bool_$",
+                        "typeString": "function (address,uint256) external returns (bool)"
+                      }
+                    },
+                    "id": 25974,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "426:47:17",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 25975,
+                  "nodeType": "ExpressionStatement",
+                  "src": "426:47:17"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "302e35",
+                        "id": 25979,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "497:9:17",
+                        "subdenomination": "ether",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_500000000000000000_by_1",
+                          "typeString": "int_const 500000000000000000"
+                        },
+                        "value": "0.5"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_rational_500000000000000000_by_1",
+                          "typeString": "int_const 500000000000000000"
+                        }
+                      ],
+                      "expression": {
+                        "id": 25976,
+                        "name": "staking",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 25942,
+                        "src": "483:7:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Staking_$25934",
+                          "typeString": "contract Staking"
+                        }
+                      },
+                      "id": 25978,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "491:5:17",
+                      "memberName": "stake",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 25553,
+                      "src": "483:13:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$_t_uint256_$returns$__$",
+                        "typeString": "function (uint256) external"
+                      }
+                    },
+                    "id": 25980,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "483:24:17",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 25981,
+                  "nodeType": "ExpressionStatement",
+                  "src": "483:24:17"
+                }
+              ]
+            },
+            "functionSelector": "3a4b66f1",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "stake",
+            "nameLocation": "401:5:17",
+            "parameters": {
+              "id": 25964,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "406:2:17"
+            },
+            "returnParameters": {
+              "id": 25965,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "416:0:17"
+            },
+            "scope": 25993,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 25992,
+            "nodeType": "FunctionDefinition",
+            "src": "520:61:17",
+            "body": {
+              "id": 25991,
+              "nodeType": "Block",
+              "src": "545:36:17",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "expression": {
+                        "id": 25986,
+                        "name": "staking",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 25942,
+                        "src": "555:7:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Staking_$25934",
+                          "typeString": "contract Staking"
+                        }
+                      },
+                      "id": 25988,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "563:9:17",
+                      "memberName": "getReward",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 25688,
+                      "src": "555:17:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$__$returns$__$",
+                        "typeString": "function () external"
+                      }
+                    },
+                    "id": 25989,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "555:19:17",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 25990,
+                  "nodeType": "ExpressionStatement",
+                  "src": "555:19:17"
+                }
+              ]
+            },
+            "functionSelector": "9e5faafc",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "attack",
+            "nameLocation": "529:6:17",
+            "parameters": {
+              "id": 25984,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "535:2:17"
+            },
+            "returnParameters": {
+              "id": 25985,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "545:0:17"
+            },
+            "scope": 25993,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Attacker",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          25993
+        ],
+        "name": "Attacker",
+        "nameLocation": "207:8:17",
+        "scope": 26191,
+        "usedErrors": []
+      },
+      {
+        "id": 26190,
+        "nodeType": "ContractDefinition",
+        "src": "585:1536:17",
+        "nodes": [
+          {
+            "id": 25998,
+            "nodeType": "VariableDeclaration",
+            "src": "620:15:17",
+            "constant": false,
+            "mutability": "mutable",
+            "name": "staking",
+            "nameLocation": "628:7:17",
+            "scope": 26190,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_Staking_$25934",
+              "typeString": "contract Staking"
+            },
+            "typeName": {
+              "id": 25997,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 25996,
+                "name": "Staking",
+                "nameLocations": [
+                  "620:7:17"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 25934,
+                "src": "620:7:17"
+              },
+              "referencedDeclaration": 25934,
+              "src": "620:7:17",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Staking_$25934",
+                "typeString": "contract Staking"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 26001,
+            "nodeType": "VariableDeclaration",
+            "src": "641:22:17",
+            "constant": false,
+            "mutability": "mutable",
+            "name": "stakingToken",
+            "nameLocation": "651:12:17",
+            "scope": 26190,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_MockERC20_$24837",
+              "typeString": "contract MockERC20"
+            },
+            "typeName": {
+              "id": 26000,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 25999,
+                "name": "MockERC20",
+                "nameLocations": [
+                  "641:9:17"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 24837,
+                "src": "641:9:17"
+              },
+              "referencedDeclaration": 24837,
+              "src": "641:9:17",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_MockERC20_$24837",
+                "typeString": "contract MockERC20"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 26004,
+            "nodeType": "VariableDeclaration",
+            "src": "669:21:17",
+            "constant": false,
+            "mutability": "mutable",
+            "name": "rewardToken",
+            "nameLocation": "679:11:17",
+            "scope": 26190,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_MockERC20_$24837",
+              "typeString": "contract MockERC20"
+            },
+            "typeName": {
+              "id": 26003,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 26002,
+                "name": "MockERC20",
+                "nameLocations": [
+                  "669:9:17"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 24837,
+                "src": "669:9:17"
+              },
+              "referencedDeclaration": 24837,
+              "src": "669:9:17",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_MockERC20_$24837",
+                "typeString": "contract MockERC20"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 26007,
+            "nodeType": "VariableDeclaration",
+            "src": "696:17:17",
+            "constant": false,
+            "mutability": "mutable",
+            "name": "attacker",
+            "nameLocation": "705:8:17",
+            "scope": 26190,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_Attacker_$25993",
+              "typeString": "contract Attacker"
+            },
+            "typeName": {
+              "id": 26006,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 26005,
+                "name": "Attacker",
+                "nameLocations": [
+                  "696:8:17"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 25993,
+                "src": "696:8:17"
+              },
+              "referencedDeclaration": 25993,
+              "src": "696:8:17",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Attacker_$25993",
+                "typeString": "contract Attacker"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 26009,
+            "nodeType": "VariableDeclaration",
+            "src": "720:13:17",
+            "constant": false,
+            "mutability": "mutable",
+            "name": "alice",
+            "nameLocation": "728:5:17",
+            "scope": 26190,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 26008,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "720:7:17",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 26091,
+            "nodeType": "FunctionDefinition",
+            "src": "740:485:17",
+            "body": {
+              "id": 26090,
+              "nodeType": "Block",
+              "src": "764:461:17",
+              "statements": [
+                {
+                  "expression": {
+                    "id": 26020,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 26012,
+                      "name": "stakingToken",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 26001,
+                      "src": "774:12:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_MockERC20_$24837",
+                        "typeString": "contract MockERC20"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "arguments": [
+                        {
+                          "hexValue": "4d617276",
+                          "id": 26016,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "string",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "803:6:17",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_stringliteral_a5b1fd47139df55ff7c57533e4f4996dc55763889f8cd791a685cc5e61679788",
+                            "typeString": "literal_string \"Marv\""
+                          },
+                          "value": "Marv"
+                        },
+                        {
+                          "hexValue": "4d5256",
+                          "id": 26017,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "string",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "811:5:17",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_stringliteral_b2f48ef70afc0cc6308ece43df28035baba77d42328e46c8a2c4ef12397e2c0a",
+                            "typeString": "literal_string \"MRV\""
+                          },
+                          "value": "MRV"
+                        },
+                        {
+                          "hexValue": "3138",
+                          "id": 26018,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "818:2:17",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_18_by_1",
+                            "typeString": "int_const 18"
+                          },
+                          "value": "18"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_stringliteral_a5b1fd47139df55ff7c57533e4f4996dc55763889f8cd791a685cc5e61679788",
+                            "typeString": "literal_string \"Marv\""
+                          },
+                          {
+                            "typeIdentifier": "t_stringliteral_b2f48ef70afc0cc6308ece43df28035baba77d42328e46c8a2c4ef12397e2c0a",
+                            "typeString": "literal_string \"MRV\""
+                          },
+                          {
+                            "typeIdentifier": "t_rational_18_by_1",
+                            "typeString": "int_const 18"
+                          }
+                        ],
+                        "id": 26015,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "NewExpression",
+                        "src": "789:13:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_creation_nonpayable$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_uint8_$returns$_t_contract$_MockERC20_$24837_$",
+                          "typeString": "function (string memory,string memory,uint8) returns (contract MockERC20)"
+                        },
+                        "typeName": {
+                          "id": 26014,
+                          "nodeType": "UserDefinedTypeName",
+                          "pathNode": {
+                            "id": 26013,
+                            "name": "MockERC20",
+                            "nameLocations": [
+                              "793:9:17"
+                            ],
+                            "nodeType": "IdentifierPath",
+                            "referencedDeclaration": 24837,
+                            "src": "793:9:17"
+                          },
+                          "referencedDeclaration": 24837,
+                          "src": "793:9:17",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_MockERC20_$24837",
+                            "typeString": "contract MockERC20"
+                          }
+                        }
+                      },
+                      "id": 26019,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "nameLocations": [],
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "789:32:17",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_MockERC20_$24837",
+                        "typeString": "contract MockERC20"
+                      }
+                    },
+                    "src": "774:47:17",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_MockERC20_$24837",
+                      "typeString": "contract MockERC20"
+                    }
+                  },
+                  "id": 26021,
+                  "nodeType": "ExpressionStatement",
+                  "src": "774:47:17"
+                },
+                {
+                  "expression": {
+                    "id": 26030,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 26022,
+                      "name": "rewardToken",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 26004,
+                      "src": "831:11:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_MockERC20_$24837",
+                        "typeString": "contract MockERC20"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "arguments": [
+                        {
+                          "hexValue": "526577617264",
+                          "id": 26026,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "string",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "859:8:17",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_stringliteral_02d12311fe1ba073b437096116ddd40fe41238aea6da9290a417a616bb3fbf3f",
+                            "typeString": "literal_string \"Reward\""
+                          },
+                          "value": "Reward"
+                        },
+                        {
+                          "hexValue": "5257",
+                          "id": 26027,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "string",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "869:4:17",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_stringliteral_eae81ad68203b97af1cc5beba3627d37bd9279e22cf8afeca2b2425a6b135d39",
+                            "typeString": "literal_string \"RW\""
+                          },
+                          "value": "RW"
+                        },
+                        {
+                          "hexValue": "3138",
+                          "id": 26028,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "875:2:17",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_18_by_1",
+                            "typeString": "int_const 18"
+                          },
+                          "value": "18"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_stringliteral_02d12311fe1ba073b437096116ddd40fe41238aea6da9290a417a616bb3fbf3f",
+                            "typeString": "literal_string \"Reward\""
+                          },
+                          {
+                            "typeIdentifier": "t_stringliteral_eae81ad68203b97af1cc5beba3627d37bd9279e22cf8afeca2b2425a6b135d39",
+                            "typeString": "literal_string \"RW\""
+                          },
+                          {
+                            "typeIdentifier": "t_rational_18_by_1",
+                            "typeString": "int_const 18"
+                          }
+                        ],
+                        "id": 26025,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "NewExpression",
+                        "src": "845:13:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_creation_nonpayable$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_uint8_$returns$_t_contract$_MockERC20_$24837_$",
+                          "typeString": "function (string memory,string memory,uint8) returns (contract MockERC20)"
+                        },
+                        "typeName": {
+                          "id": 26024,
+                          "nodeType": "UserDefinedTypeName",
+                          "pathNode": {
+                            "id": 26023,
+                            "name": "MockERC20",
+                            "nameLocations": [
+                              "849:9:17"
+                            ],
+                            "nodeType": "IdentifierPath",
+                            "referencedDeclaration": 24837,
+                            "src": "849:9:17"
+                          },
+                          "referencedDeclaration": 24837,
+                          "src": "849:9:17",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_MockERC20_$24837",
+                            "typeString": "contract MockERC20"
+                          }
+                        }
+                      },
+                      "id": 26029,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "nameLocations": [],
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "845:33:17",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_MockERC20_$24837",
+                        "typeString": "contract MockERC20"
+                      }
+                    },
+                    "src": "831:47:17",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_MockERC20_$24837",
+                      "typeString": "contract MockERC20"
+                    }
+                  },
+                  "id": 26031,
+                  "nodeType": "ExpressionStatement",
+                  "src": "831:47:17"
+                },
+                {
+                  "expression": {
+                    "id": 26041,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 26032,
+                      "name": "staking",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 25998,
+                      "src": "888:7:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_Staking_$25934",
+                        "typeString": "contract Staking"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "arguments": [
+                        {
+                          "arguments": [
+                            {
+                              "id": 26038,
+                              "name": "stakingToken",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 26001,
+                              "src": "918:12:17",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_contract$_MockERC20_$24837",
+                                "typeString": "contract MockERC20"
+                              }
+                            }
+                          ],
+                          "expression": {
+                            "argumentTypes": [
+                              {
+                                "typeIdentifier": "t_contract$_MockERC20_$24837",
+                                "typeString": "contract MockERC20"
+                              }
+                            ],
+                            "id": 26037,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "lValueRequested": false,
+                            "nodeType": "ElementaryTypeNameExpression",
+                            "src": "910:7:17",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_type$_t_address_$",
+                              "typeString": "type(address)"
+                            },
+                            "typeName": {
+                              "id": 26036,
+                              "name": "address",
+                              "nodeType": "ElementaryTypeName",
+                              "src": "910:7:17",
+                              "typeDescriptions": {}
+                            }
+                          },
+                          "id": 26039,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "kind": "typeConversion",
+                          "lValueRequested": false,
+                          "nameLocations": [],
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "910:21:17",
+                          "tryCall": false,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        ],
+                        "id": 26035,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "NewExpression",
+                        "src": "898:11:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_creation_nonpayable$_t_address_$returns$_t_contract$_Staking_$25934_$",
+                          "typeString": "function (address) returns (contract Staking)"
+                        },
+                        "typeName": {
+                          "id": 26034,
+                          "nodeType": "UserDefinedTypeName",
+                          "pathNode": {
+                            "id": 26033,
+                            "name": "Staking",
+                            "nameLocations": [
+                              "902:7:17"
+                            ],
+                            "nodeType": "IdentifierPath",
+                            "referencedDeclaration": 25934,
+                            "src": "902:7:17"
+                          },
+                          "referencedDeclaration": 25934,
+                          "src": "902:7:17",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_Staking_$25934",
+                            "typeString": "contract Staking"
+                          }
+                        }
+                      },
+                      "id": 26040,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "nameLocations": [],
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "898:34:17",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_Staking_$25934",
+                        "typeString": "contract Staking"
+                      }
+                    },
+                    "src": "888:44:17",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_Staking_$25934",
+                      "typeString": "contract Staking"
+                    }
+                  },
+                  "id": 26042,
+                  "nodeType": "ExpressionStatement",
+                  "src": "888:44:17"
+                },
+                {
+                  "expression": {
+                    "id": 26050,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 26043,
+                      "name": "attacker",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 26007,
+                      "src": "942:8:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_Attacker_$25993",
+                        "typeString": "contract Attacker"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "arguments": [
+                        {
+                          "id": 26047,
+                          "name": "staking",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 25998,
+                          "src": "966:7:17",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_Staking_$25934",
+                            "typeString": "contract Staking"
+                          }
+                        },
+                        {
+                          "id": 26048,
+                          "name": "stakingToken",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 26001,
+                          "src": "975:12:17",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_MockERC20_$24837",
+                            "typeString": "contract MockERC20"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_contract$_Staking_$25934",
+                            "typeString": "contract Staking"
+                          },
+                          {
+                            "typeIdentifier": "t_contract$_MockERC20_$24837",
+                            "typeString": "contract MockERC20"
+                          }
+                        ],
+                        "id": 26046,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "NewExpression",
+                        "src": "953:12:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_creation_nonpayable$_t_contract$_Staking_$25934_$_t_contract$_MockERC20_$24837_$returns$_t_contract$_Attacker_$25993_$",
+                          "typeString": "function (contract Staking,contract MockERC20) returns (contract Attacker)"
+                        },
+                        "typeName": {
+                          "id": 26045,
+                          "nodeType": "UserDefinedTypeName",
+                          "pathNode": {
+                            "id": 26044,
+                            "name": "Attacker",
+                            "nameLocations": [
+                              "957:8:17"
+                            ],
+                            "nodeType": "IdentifierPath",
+                            "referencedDeclaration": 25993,
+                            "src": "957:8:17"
+                          },
+                          "referencedDeclaration": 25993,
+                          "src": "957:8:17",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_Attacker_$25993",
+                            "typeString": "contract Attacker"
+                          }
+                        }
+                      },
+                      "id": 26049,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "nameLocations": [],
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "953:35:17",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_Attacker_$25993",
+                        "typeString": "contract Attacker"
+                      }
+                    },
+                    "src": "942:46:17",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_Attacker_$25993",
+                      "typeString": "contract Attacker"
+                    }
+                  },
+                  "id": 26051,
+                  "nodeType": "ExpressionStatement",
+                  "src": "942:46:17"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "id": 26057,
+                            "name": "rewardToken",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 26004,
+                            "src": "1053:11:17",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_contract$_MockERC20_$24837",
+                              "typeString": "contract MockERC20"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_contract$_MockERC20_$24837",
+                              "typeString": "contract MockERC20"
+                            }
+                          ],
+                          "id": 26056,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "nodeType": "ElementaryTypeNameExpression",
+                          "src": "1045:7:17",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_address_$",
+                            "typeString": "type(address)"
+                          },
+                          "typeName": {
+                            "id": 26055,
+                            "name": "address",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "1045:7:17",
+                            "typeDescriptions": {}
+                          }
+                        },
+                        "id": 26058,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "nameLocations": [],
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "1045:20:17",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      {
+                        "arguments": [
+                          {
+                            "id": 26061,
+                            "name": "this",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": -28,
+                            "src": "1075:4:17",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_contract$_StakingTest_$26190",
+                              "typeString": "contract StakingTest"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_contract$_StakingTest_$26190",
+                              "typeString": "contract StakingTest"
+                            }
+                          ],
+                          "id": 26060,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "nodeType": "ElementaryTypeNameExpression",
+                          "src": "1067:7:17",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_address_$",
+                            "typeString": "type(address)"
+                          },
+                          "typeName": {
+                            "id": 26059,
+                            "name": "address",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "1067:7:17",
+                            "typeDescriptions": {}
+                          }
+                        },
+                        "id": 26062,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "nameLocations": [],
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "1067:13:17",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      {
+                        "hexValue": "37323537363030",
+                        "id": 26063,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1082:7:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_7257600_by_1",
+                          "typeString": "int_const 7257600"
+                        },
+                        "value": "7257600"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        {
+                          "typeIdentifier": "t_rational_7257600_by_1",
+                          "typeString": "int_const 7257600"
+                        }
+                      ],
+                      "expression": {
+                        "id": 26052,
+                        "name": "staking",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 25998,
+                        "src": "1027:7:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Staking_$25934",
+                          "typeString": "contract Staking"
+                        }
+                      },
+                      "id": 26054,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1035:9:17",
+                      "memberName": "addReward",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 25337,
+                      "src": "1027:17:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
+                        "typeString": "function (address,address,uint256) external"
+                      }
+                    },
+                    "id": 26064,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1027:63:17",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 26065,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1027:63:17"
+                },
+                {
+                  "expression": {
+                    "id": 26071,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 26066,
+                      "name": "alice",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 26009,
+                      "src": "1101:5:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "arguments": [
+                        {
+                          "hexValue": "31",
+                          "id": 26069,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1117:1:17",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_1_by_1",
+                            "typeString": "int_const 1"
+                          },
+                          "value": "1"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_rational_1_by_1",
+                            "typeString": "int_const 1"
+                          }
+                        ],
+                        "expression": {
+                          "id": 26067,
+                          "name": "vm",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 1817,
+                          "src": "1109:2:17",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_Vm_$7098",
+                            "typeString": "contract Vm"
+                          }
+                        },
+                        "id": 26068,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberLocation": "1112:4:17",
+                        "memberName": "addr",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 6390,
+                        "src": "1109:7:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_external_nonpayable$_t_uint256_$returns$_t_address_$",
+                          "typeString": "function (uint256) external returns (address)"
+                        }
+                      },
+                      "id": 26070,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "nameLocations": [],
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "1109:10:17",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "src": "1101:18:17",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "id": 26072,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1101:18:17"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 26076,
+                        "name": "alice",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 26009,
+                        "src": "1147:5:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      {
+                        "hexValue": "31",
+                        "id": 26077,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1154:7:17",
+                        "subdenomination": "ether",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_1000000000000000000_by_1",
+                          "typeString": "int_const 1000000000000000000"
+                        },
+                        "value": "1"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        {
+                          "typeIdentifier": "t_rational_1000000000000000000_by_1",
+                          "typeString": "int_const 1000000000000000000"
+                        }
+                      ],
+                      "expression": {
+                        "id": 26073,
+                        "name": "stakingToken",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 26001,
+                        "src": "1129:12:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_MockERC20_$24837",
+                          "typeString": "contract MockERC20"
+                        }
+                      },
+                      "id": 26075,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1142:4:17",
+                      "memberName": "mint",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 24823,
+                      "src": "1129:17:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$__$",
+                        "typeString": "function (address,uint256) external"
+                      }
+                    },
+                    "id": 26078,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1129:33:17",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 26079,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1129:33:17"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "id": 26085,
+                            "name": "attacker",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 26007,
+                            "src": "1199:8:17",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_contract$_Attacker_$25993",
+                              "typeString": "contract Attacker"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_contract$_Attacker_$25993",
+                              "typeString": "contract Attacker"
+                            }
+                          ],
+                          "id": 26084,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "nodeType": "ElementaryTypeNameExpression",
+                          "src": "1191:7:17",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_address_$",
+                            "typeString": "type(address)"
+                          },
+                          "typeName": {
+                            "id": 26083,
+                            "name": "address",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "1191:7:17",
+                            "typeDescriptions": {}
+                          }
+                        },
+                        "id": 26086,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "nameLocations": [],
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "1191:17:17",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      {
+                        "hexValue": "31",
+                        "id": 26087,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1210:7:17",
+                        "subdenomination": "ether",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_1000000000000000000_by_1",
+                          "typeString": "int_const 1000000000000000000"
+                        },
+                        "value": "1"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        {
+                          "typeIdentifier": "t_rational_1000000000000000000_by_1",
+                          "typeString": "int_const 1000000000000000000"
+                        }
+                      ],
+                      "expression": {
+                        "id": 26080,
+                        "name": "stakingToken",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 26001,
+                        "src": "1173:12:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_MockERC20_$24837",
+                          "typeString": "contract MockERC20"
+                        }
+                      },
+                      "id": 26082,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1186:4:17",
+                      "memberName": "mint",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 24823,
+                      "src": "1173:17:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$__$",
+                        "typeString": "function (address,uint256) external"
+                      }
+                    },
+                    "id": 26088,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1173:45:17",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 26089,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1173:45:17"
+                }
+              ]
+            },
+            "functionSelector": "0a9254e4",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setUp",
+            "nameLocation": "749:5:17",
+            "parameters": {
+              "id": 26010,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "754:2:17"
+            },
+            "returnParameters": {
+              "id": 26011,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "764:0:17"
+            },
+            "scope": 26190,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 26189,
+            "nodeType": "FunctionDefinition",
+            "src": "1231:584:17",
+            "body": {
+              "id": 26188,
+              "nodeType": "Block",
+              "src": "1259:556:17",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 26097,
+                        "name": "alice",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 26009,
+                        "src": "1283:5:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      ],
+                      "expression": {
+                        "id": 26094,
+                        "name": "vm",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1817,
+                        "src": "1269:2:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Vm_$7098",
+                          "typeString": "contract Vm"
+                        }
+                      },
+                      "id": 26096,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1272:10:17",
+                      "memberName": "startPrank",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 6548,
+                      "src": "1269:13:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$_t_address_$returns$__$",
+                        "typeString": "function (address) external"
+                      }
+                    },
+                    "id": 26098,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1269:20:17",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 26099,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1269:20:17"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "id": 26105,
+                            "name": "staking",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 25998,
+                            "src": "1328:7:17",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_contract$_Staking_$25934",
+                              "typeString": "contract Staking"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_contract$_Staking_$25934",
+                              "typeString": "contract Staking"
+                            }
+                          ],
+                          "id": 26104,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "nodeType": "ElementaryTypeNameExpression",
+                          "src": "1320:7:17",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_address_$",
+                            "typeString": "type(address)"
+                          },
+                          "typeName": {
+                            "id": 26103,
+                            "name": "address",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "1320:7:17",
+                            "typeDescriptions": {}
+                          }
+                        },
+                        "id": 26106,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "nameLocations": [],
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "1320:16:17",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      {
+                        "hexValue": "31",
+                        "id": 26107,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1338:7:17",
+                        "subdenomination": "ether",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_1000000000000000000_by_1",
+                          "typeString": "int_const 1000000000000000000"
+                        },
+                        "value": "1"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        {
+                          "typeIdentifier": "t_rational_1000000000000000000_by_1",
+                          "typeString": "int_const 1000000000000000000"
+                        }
+                      ],
+                      "expression": {
+                        "id": 26100,
+                        "name": "stakingToken",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 26001,
+                        "src": "1299:12:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_MockERC20_$24837",
+                          "typeString": "contract MockERC20"
+                        }
+                      },
+                      "id": 26102,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1312:7:17",
+                      "memberName": "approve",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 24942,
+                      "src": "1299:20:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$_t_bool_$",
+                        "typeString": "function (address,uint256) external returns (bool)"
+                      }
+                    },
+                    "id": 26108,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1299:47:17",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 26109,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1299:47:17"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "302e35",
+                        "id": 26113,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1370:9:17",
+                        "subdenomination": "ether",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_500000000000000000_by_1",
+                          "typeString": "int_const 500000000000000000"
+                        },
+                        "value": "0.5"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_rational_500000000000000000_by_1",
+                          "typeString": "int_const 500000000000000000"
+                        }
+                      ],
+                      "expression": {
+                        "id": 26110,
+                        "name": "staking",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 25998,
+                        "src": "1356:7:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Staking_$25934",
+                          "typeString": "contract Staking"
+                        }
+                      },
+                      "id": 26112,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1364:5:17",
+                      "memberName": "stake",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 25553,
+                      "src": "1356:13:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$_t_uint256_$returns$__$",
+                        "typeString": "function (uint256) external"
+                      }
+                    },
+                    "id": 26114,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1356:24:17",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 26115,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1356:24:17"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "626c6f636b74696d657374616d703a20",
+                        "id": 26119,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1403:18:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_e5a0e24637a1fd502c5651a68c79779eba5824e107e4e798996f98b184df4f1b",
+                          "typeString": "literal_string \"blocktimestamp: \""
+                        },
+                        "value": "blocktimestamp: "
+                      },
+                      {
+                        "expression": {
+                          "id": 26120,
+                          "name": "block",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": -4,
+                          "src": "1423:5:17",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_magic_block",
+                            "typeString": "block"
+                          }
+                        },
+                        "id": 26121,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberLocation": "1429:9:17",
+                        "memberName": "timestamp",
+                        "nodeType": "MemberAccess",
+                        "src": "1423:15:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_e5a0e24637a1fd502c5651a68c79779eba5824e107e4e798996f98b184df4f1b",
+                          "typeString": "literal_string \"blocktimestamp: \""
+                        },
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      ],
+                      "expression": {
+                        "id": 26116,
+                        "name": "console",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 15162,
+                        "src": "1391:7:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_contract$_console_$15162_$",
+                          "typeString": "type(library console)"
+                        }
+                      },
+                      "id": 26118,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1399:3:17",
+                      "memberName": "log",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 7806,
+                      "src": "1391:11:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_view$_t_string_memory_ptr_$_t_uint256_$returns$__$",
+                        "typeString": "function (string memory,uint256) view"
+                      }
+                    },
+                    "id": 26122,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1391:48:17",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 26123,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1391:48:17"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "31303030",
+                        "id": 26127,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1458:4:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_1000_by_1",
+                          "typeString": "int_const 1000"
+                        },
+                        "value": "1000"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_rational_1000_by_1",
+                          "typeString": "int_const 1000"
+                        }
+                      ],
+                      "expression": {
+                        "id": 26124,
+                        "name": "vm",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1817,
+                        "src": "1450:2:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Vm_$7098",
+                          "typeString": "contract Vm"
+                        }
+                      },
+                      "id": 26126,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1453:4:17",
+                      "memberName": "warp",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 6332,
+                      "src": "1450:7:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$_t_uint256_$returns$__$",
+                        "typeString": "function (uint256) external"
+                      }
+                    },
+                    "id": 26128,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1450:13:17",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 26129,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1450:13:17"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "313030",
+                        "id": 26133,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1481:3:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_100_by_1",
+                          "typeString": "int_const 100"
+                        },
+                        "value": "100"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_rational_100_by_1",
+                          "typeString": "int_const 100"
+                        }
+                      ],
+                      "expression": {
+                        "id": 26130,
+                        "name": "vm",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1817,
+                        "src": "1473:2:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Vm_$7098",
+                          "typeString": "contract Vm"
+                        }
+                      },
+                      "id": 26132,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1476:4:17",
+                      "memberName": "roll",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 6337,
+                      "src": "1473:7:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$_t_uint256_$returns$__$",
+                        "typeString": "function (uint256) external"
+                      }
+                    },
+                    "id": 26134,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1473:12:17",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 26135,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1473:12:17"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "626c6f636b74696d657374616d703a20",
+                        "id": 26139,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1508:18:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_e5a0e24637a1fd502c5651a68c79779eba5824e107e4e798996f98b184df4f1b",
+                          "typeString": "literal_string \"blocktimestamp: \""
+                        },
+                        "value": "blocktimestamp: "
+                      },
+                      {
+                        "expression": {
+                          "id": 26140,
+                          "name": "block",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": -4,
+                          "src": "1528:5:17",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_magic_block",
+                            "typeString": "block"
+                          }
+                        },
+                        "id": 26141,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberLocation": "1534:9:17",
+                        "memberName": "timestamp",
+                        "nodeType": "MemberAccess",
+                        "src": "1528:15:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_e5a0e24637a1fd502c5651a68c79779eba5824e107e4e798996f98b184df4f1b",
+                          "typeString": "literal_string \"blocktimestamp: \""
+                        },
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      ],
+                      "expression": {
+                        "id": 26136,
+                        "name": "console",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 15162,
+                        "src": "1496:7:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_contract$_console_$15162_$",
+                          "typeString": "type(library console)"
+                        }
+                      },
+                      "id": 26138,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1504:3:17",
+                      "memberName": "log",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 7806,
+                      "src": "1496:11:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_view$_t_string_memory_ptr_$_t_uint256_$returns$__$",
+                        "typeString": "function (string memory,uint256) view"
+                      }
+                    },
+                    "id": 26142,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1496:48:17",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 26143,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1496:48:17"
+                },
+                {
+                  "expression": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "expression": {
+                        "id": 26144,
+                        "name": "staking",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 25998,
+                        "src": "1555:7:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Staking_$25934",
+                          "typeString": "contract Staking"
+                        }
+                      },
+                      "id": 26146,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1563:11:17",
+                      "memberName": "totalSupply",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 25345,
+                      "src": "1555:19:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
+                        "typeString": "function () view external returns (uint256)"
+                      }
+                    },
+                    "id": 26147,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1555:21:17",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 26148,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1555:21:17"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "id": 26154,
+                            "name": "rewardToken",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 26004,
+                            "src": "1618:11:17",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_contract$_MockERC20_$24837",
+                              "typeString": "contract MockERC20"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_contract$_MockERC20_$24837",
+                              "typeString": "contract MockERC20"
+                            }
+                          ],
+                          "id": 26153,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "nodeType": "ElementaryTypeNameExpression",
+                          "src": "1610:7:17",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_address_$",
+                            "typeString": "type(address)"
+                          },
+                          "typeName": {
+                            "id": 26152,
+                            "name": "address",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "1610:7:17",
+                            "typeDescriptions": {}
+                          }
+                        },
+                        "id": 26155,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "nameLocations": [],
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "1610:20:17",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      ],
+                      "expression": {
+                        "id": 26149,
+                        "name": "staking",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 25998,
+                        "src": "1587:7:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Staking_$25934",
+                          "typeString": "contract Staking"
+                        }
+                      },
+                      "id": 26151,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1595:14:17",
+                      "memberName": "rewardPerToken",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 25421,
+                      "src": "1587:22:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
+                        "typeString": "function (address) view external returns (uint256)"
+                      }
+                    },
+                    "id": 26156,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1587:44:17",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 26157,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1587:44:17"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 26161,
+                        "name": "alice",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 26009,
+                        "src": "1672:5:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      {
+                        "arguments": [
+                          {
+                            "id": 26164,
+                            "name": "rewardToken",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 26004,
+                            "src": "1687:11:17",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_contract$_MockERC20_$24837",
+                              "typeString": "contract MockERC20"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_contract$_MockERC20_$24837",
+                              "typeString": "contract MockERC20"
+                            }
+                          ],
+                          "id": 26163,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "nodeType": "ElementaryTypeNameExpression",
+                          "src": "1679:7:17",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_address_$",
+                            "typeString": "type(address)"
+                          },
+                          "typeName": {
+                            "id": 26162,
+                            "name": "address",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "1679:7:17",
+                            "typeDescriptions": {}
+                          }
+                        },
+                        "id": 26165,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "nameLocations": [],
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "1679:20:17",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      ],
+                      "expression": {
+                        "id": 26158,
+                        "name": "staking",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 25998,
+                        "src": "1641:7:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Staking_$25934",
+                          "typeString": "contract Staking"
+                        }
+                      },
+                      "id": 26160,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1649:22:17",
+                      "memberName": "userRewardPerTokenPaid",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 25272,
+                      "src": "1641:30:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_view$_t_address_$_t_address_$returns$_t_uint256_$",
+                        "typeString": "function (address,address) view external returns (uint256)"
+                      }
+                    },
+                    "id": 26166,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1641:59:17",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 26167,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1641:59:17"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 26171,
+                        "name": "alice",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 26009,
+                        "src": "1726:5:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      {
+                        "arguments": [
+                          {
+                            "id": 26174,
+                            "name": "rewardToken",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 26004,
+                            "src": "1741:11:17",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_contract$_MockERC20_$24837",
+                              "typeString": "contract MockERC20"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_contract$_MockERC20_$24837",
+                              "typeString": "contract MockERC20"
+                            }
+                          ],
+                          "id": 26173,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "nodeType": "ElementaryTypeNameExpression",
+                          "src": "1733:7:17",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_address_$",
+                            "typeString": "type(address)"
+                          },
+                          "typeName": {
+                            "id": 26172,
+                            "name": "address",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "1733:7:17",
+                            "typeDescriptions": {}
+                          }
+                        },
+                        "id": 26175,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "nameLocations": [],
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "1733:20:17",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      ],
+                      "expression": {
+                        "id": 26168,
+                        "name": "staking",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 25998,
+                        "src": "1710:7:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Staking_$25934",
+                          "typeString": "contract Staking"
+                        }
+                      },
+                      "id": 26170,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1718:7:17",
+                      "memberName": "rewards",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 25278,
+                      "src": "1710:15:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_view$_t_address_$_t_address_$returns$_t_uint256_$",
+                        "typeString": "function (address,address) view external returns (uint256)"
+                      }
+                    },
+                    "id": 26176,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1710:44:17",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 26177,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1710:44:17"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 26181,
+                        "name": "alice",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 26009,
+                        "src": "1780:5:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      {
+                        "arguments": [
+                          {
+                            "id": 26184,
+                            "name": "rewardToken",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 26004,
+                            "src": "1795:11:17",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_contract$_MockERC20_$24837",
+                              "typeString": "contract MockERC20"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_contract$_MockERC20_$24837",
+                              "typeString": "contract MockERC20"
+                            }
+                          ],
+                          "id": 26183,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "nodeType": "ElementaryTypeNameExpression",
+                          "src": "1787:7:17",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_address_$",
+                            "typeString": "type(address)"
+                          },
+                          "typeName": {
+                            "id": 26182,
+                            "name": "address",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "1787:7:17",
+                            "typeDescriptions": {}
+                          }
+                        },
+                        "id": 26185,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "nameLocations": [],
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "1787:20:17",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      ],
+                      "expression": {
+                        "id": 26178,
+                        "name": "staking",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 25998,
+                        "src": "1765:7:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Staking_$25934",
+                          "typeString": "contract Staking"
+                        }
+                      },
+                      "id": 26180,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1773:6:17",
+                      "memberName": "earned",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 25457,
+                      "src": "1765:14:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_view$_t_address_$_t_address_$returns$_t_uint256_$",
+                        "typeString": "function (address,address) view external returns (uint256)"
+                      }
+                    },
+                    "id": 26186,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1765:43:17",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 26187,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1765:43:17"
+                }
+              ]
+            },
+            "functionSelector": "3a1143da",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "testStake",
+            "nameLocation": "1240:9:17",
+            "parameters": {
+              "id": 26092,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1249:2:17"
+            },
+            "returnParameters": {
+              "id": 26093,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1259:0:17"
+            },
+            "scope": 26190,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 25994,
+              "name": "Test",
+              "nameLocations": [
+                "609:4:17"
+              ],
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 4979,
+              "src": "609:4:17"
+            },
+            "id": 25995,
+            "nodeType": "InheritanceSpecifier",
+            "src": "609:4:17"
+          }
+        ],
+        "canonicalName": "StakingTest",
+        "contractDependencies": [
+          24837,
+          25934,
+          25993
+        ],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          26190,
+          4979,
+          2049,
+          1786
+        ],
+        "name": "StakingTest",
+        "nameLocation": "594:11:17",
+        "scope": 26191,
+        "usedErrors": []
+      }
+    ],
+    "license": "UNLICENSED"
+  },
+  "id": 17
+}
