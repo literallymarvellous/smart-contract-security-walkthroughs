@@ -18,4 +18,3 @@ contract HackTest is Test {
         hack.pwn{value: 100000 * 1e18}();
     }
 }
-// https://eth-mainnet.alchemyapi.io/v2/r9jBcxFBggLgpG4EW54kjHXkyOHtcPvo
