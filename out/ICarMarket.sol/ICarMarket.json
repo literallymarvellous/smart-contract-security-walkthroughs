@@ -181,19 +181,20 @@
   },
   "ast": {
     "absolutePath": "src/ethernautDao/level3/interfaces/ICarMarket.sol",
-    "id": 29435,
+    "id": 18176,
     "exportedSymbols": {
       "ICarMarket": [
-        29434
+        18175
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "37:840:43",
+    "src": "37:840:62",
     "nodes": [
       {
-        "id": 29411,
+        "id": 18152,
         "nodeType": "PragmaDirective",
-        "src": "37:31:43",
+        "src": "37:31:62",
+        "nodes": [],
         "literals": [
           "solidity",
           ">=",
@@ -205,18 +206,19 @@
         ]
       },
       {
-        "id": 29434,
+        "id": 18175,
         "nodeType": "ContractDefinition",
-        "src": "223:653:43",
+        "src": "223:653:62",
         "nodes": [
           {
-            "id": 29422,
+            "id": 18163,
             "nodeType": "FunctionDefinition",
-            "src": "497:140:43",
+            "src": "497:140:62",
+            "nodes": [],
             "documentation": {
-              "id": 29413,
+              "id": 18154,
               "nodeType": "StructuredDocumentation",
-              "src": "250:242:43",
+              "src": "250:242:62",
               "text": " @dev Enables a user to purchase a car\n @param _color The color of the car to be purchased\n @param _model The model of the car to be purchased\n @param _plateNumber The plateNumber of the car to be purchased"
             },
             "functionSelector": "a3e3fa86",
@@ -224,20 +226,20 @@
             "kind": "function",
             "modifiers": [],
             "name": "purchaseCar",
-            "nameLocation": "506:11:43",
+            "nameLocation": "506:11:62",
             "parameters": {
-              "id": 29420,
+              "id": 18161,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 29415,
+                  "id": 18156,
                   "mutability": "mutable",
                   "name": "_color",
-                  "nameLocation": "541:6:43",
+                  "nameLocation": "541:6:62",
                   "nodeType": "VariableDeclaration",
-                  "scope": 29422,
-                  "src": "527:20:43",
+                  "scope": 18163,
+                  "src": "527:20:62",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -245,10 +247,10 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 29414,
+                    "id": 18155,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "527:6:43",
+                    "src": "527:6:62",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -258,13 +260,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 29417,
+                  "id": 18158,
                   "mutability": "mutable",
                   "name": "_model",
-                  "nameLocation": "571:6:43",
+                  "nameLocation": "571:6:62",
                   "nodeType": "VariableDeclaration",
-                  "scope": 29422,
-                  "src": "557:20:43",
+                  "scope": 18163,
+                  "src": "557:20:62",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -272,10 +274,10 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 29416,
+                    "id": 18157,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "557:6:43",
+                    "src": "557:6:62",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -285,13 +287,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 29419,
+                  "id": 18160,
                   "mutability": "mutable",
                   "name": "_plateNumber",
-                  "nameLocation": "601:12:43",
+                  "nameLocation": "601:12:62",
                   "nodeType": "VariableDeclaration",
-                  "scope": 29422,
-                  "src": "587:26:43",
+                  "scope": 18163,
+                  "src": "587:26:62",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -299,10 +301,10 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 29418,
+                    "id": 18159,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "587:6:43",
+                    "src": "587:6:62",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -311,27 +313,28 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "517:102:43"
+              "src": "517:102:62"
             },
             "returnParameters": {
-              "id": 29421,
+              "id": 18162,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "636:0:43"
+              "src": "636:0:62"
             },
-            "scope": 29434,
+            "scope": 18175,
             "stateMutability": "payable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "id": 29426,
+            "id": 18167,
             "nodeType": "FunctionDefinition",
-            "src": "758:34:43",
+            "src": "758:34:62",
+            "nodes": [],
             "documentation": {
-              "id": 29423,
+              "id": 18164,
               "nodeType": "StructuredDocumentation",
-              "src": "643:110:43",
+              "src": "643:110:62",
               "text": " @dev Enables the owner of the contract to withdraw funds gotten from the purcahse of a car."
             },
             "functionSelector": "24600fc3",
@@ -339,47 +342,48 @@
             "kind": "function",
             "modifiers": [],
             "name": "withdrawFunds",
-            "nameLocation": "767:13:43",
+            "nameLocation": "767:13:62",
             "parameters": {
-              "id": 29424,
+              "id": 18165,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "780:2:43"
+              "src": "780:2:62"
             },
             "returnParameters": {
-              "id": 29425,
+              "id": 18166,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "791:0:43"
+              "src": "791:0:62"
             },
-            "scope": 29434,
+            "scope": 18175,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "id": 29433,
+            "id": 18174,
             "nodeType": "FunctionDefinition",
-            "src": "798:76:43",
+            "src": "798:76:62",
+            "nodes": [],
             "functionSelector": "96eef7d8",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "isExistingCustomer",
-            "nameLocation": "807:18:43",
+            "nameLocation": "807:18:62",
             "parameters": {
-              "id": 29429,
+              "id": 18170,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 29428,
+                  "id": 18169,
                   "mutability": "mutable",
                   "name": "_customer",
-                  "nameLocation": "834:9:43",
+                  "nameLocation": "834:9:62",
                   "nodeType": "VariableDeclaration",
-                  "scope": 29433,
-                  "src": "826:17:43",
+                  "scope": 18174,
+                  "src": "826:17:62",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -387,10 +391,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 29427,
+                    "id": 18168,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "826:7:43",
+                    "src": "826:7:62",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -400,21 +404,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "825:19:43"
+              "src": "825:19:62"
             },
             "returnParameters": {
-              "id": 29432,
+              "id": 18173,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 29431,
+                  "id": 18172,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 29433,
-                  "src": "868:4:43",
+                  "scope": 18174,
+                  "src": "868:4:62",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -422,10 +426,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 29430,
+                    "id": 18171,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "868:4:43",
+                    "src": "868:4:62",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -434,9 +438,9 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "867:6:43"
+              "src": "867:6:62"
             },
-            "scope": 29434,
+            "scope": 18175,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
@@ -448,22 +452,22 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "documentation": {
-          "id": 29412,
+          "id": 18153,
           "nodeType": "StructuredDocumentation",
-          "src": "70:152:43",
+          "src": "70:152:62",
           "text": " @title CarMarket Interface\n @author Jelo\n @notice Contains the functions required to purchase a car and withdraw funds from the contract."
         },
         "fullyImplemented": false,
         "linearizedBaseContracts": [
-          29434
+          18175
         ],
         "name": "ICarMarket",
-        "nameLocation": "233:10:43",
-        "scope": 29435,
+        "nameLocation": "233:10:62",
+        "scope": 18176,
         "usedErrors": []
       }
     ],
     "license": "GPL-3.0"
   },
-  "id": 43
+  "id": 62
 }
