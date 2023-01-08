@@ -1,0 +1,1389 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "NotEnoughBalance",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "notify",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x60806040526000805460ff1916905534801561001a57600080fd5b5060af806100296000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806398d078b414602d575b600080fd5b603c60383660046061565b603e565b005b80600a03605e5760405163569d45cf60e11b815260040160405180910390fd5b50565b600060208284031215607257600080fd5b503591905056fea26469706673582212204ad8fe764f4608268b6de877e9604e33cf737b2f9d12375256c73b14caf5871a64736f6c63430008110033",
+    "sourceMap": "626:204:102:-:0;;;660:5;646:19;;-1:-1:-1;;646:19:102;;;626:204;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c806398d078b414602d575b600080fd5b603c60383660046061565b603e565b005b80600a03605e5760405163569d45cf60e11b815260040160405180910390fd5b50565b600060208284031215607257600080fd5b503591905056fea26469706673582212204ad8fe764f4608268b6de877e9604e33cf737b2f9d12375256c73b14caf5871a64736f6c63430008110033",
+    "sourceMap": "626:204:102:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;703:125;;;;;;:::i;:::-;;:::i;:::-;;;758:6;768:2;758:12;754:68;;793:18;;-1:-1:-1;;;793:18:102;;;;;;;;;;;754:68;703:125;:::o;14:180:126:-;73:6;126:2;114:9;105:7;101:23;97:32;94:52;;;142:1;139;132:12;94:52;-1:-1:-1;165:23:126;;14:180;-1:-1:-1;14:180:126:o",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "notify(uint256)": "98d078b4"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"NotEnoughBalance\",\"type\":\"error\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"notify\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"test/ethernaut/GoodSamaritan.t.sol\":\"Hack\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin-upgradeable/=lib/openzeppelin-contracts-upgradeable/\",\":@openzeppelin/=lib/openzeppelin-contracts/\",\":@solmate/=lib/solmate/src/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/contracts/\",\":solmate/=lib/solmate/src/\"]},\"sources\":{\"lib/forge-std/lib/ds-test/src/test.sol\":{\"keccak256\":\"0xb39cd1d5220cb474947b131e15a4538334b7e886af244b440ae5c9c6bba96a54\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://3101520221449ac0070bda3881311a71d9aa87e5210765e875246922cb5cb5f5\",\"dweb:/ipfs/Qmbg6kAHNoG7ox9N9Xqd9Ere2H2XixMFWFqvyPwFCzB3Gr\"]},\"lib/forge-std/src/Script.sol\":{\"keccak256\":\"0x9d09c1e55cd508d3376cff9961625d51d73f8ce075ec1e9deed41408a4556e00\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8880c5551daf337ab91665a9ce593df67a9eb11b0bee820f631d324d2fdd3a8b\",\"dweb:/ipfs/QmNpvSBGnS9Jr6Swd6XKsijG59a4yjYemWCFwprjKFkpNC\"]},\"lib/forge-std/src/StdJson.sol\":{\"keccak256\":\"0x1297a1cc393bc8163ccf143e5335536e78cb25ac24a4f6dfdb25f5746dd4827e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://945ccffad9fc09d2aa0ac200a80dcfa2f491dba8680fc9c3d3d450d891284b87\",\"dweb:/ipfs/QmYSfFb1L6LN1ZB9KWzZqxt2iAbpuFDskBcU1Bz4RiyuQ5\"]},\"lib/forge-std/src/Test.sol\":{\"keccak256\":\"0x6c9cbd51234372b66bf7c146870edf0855770c46e960a8fae8f354ddf382876b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://fd0ff1f449294dd1447b9d483c52d78e137d8cac518646e76df9fdd4d185d6c2\",\"dweb:/ipfs/QmS3JP4vKgvAWo8Tc7zVrGxbdR7t37ayk1mTHN3seD6UAZ\"]},\"lib/forge-std/src/Vm.sol\":{\"keccak256\":\"0x1a5767028a0c3985e991456fc9650055e28b01b787c56b11f66ac30498a153ab\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f86887212eacca450a15a8a5bf9fe83fd91a2ba623df8e9c32c75a31824c8ea2\",\"dweb:/ipfs/QmTUHBNdZwntgjbFZne7fY9ZJLNGYWaq3uWfGk6FyqdAkB\"]},\"lib/forge-std/src/console.sol\":{\"keccak256\":\"0x91d5413c2434ca58fd278b6e1e79fd98d10c83931cc2596a6038eee4daeb34ba\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://91ccea707361e48b9b7a161fe81f496b9932bc471e9c4e4e1e9c283f2453cc70\",\"dweb:/ipfs/QmcB66sZhQ6Kz7MUHcLE78YXRUZxoZnnxZjN6yATsbB2ec\"]},\"lib/forge-std/src/console2.sol\":{\"keccak256\":\"0xbeb823fcdb356244a83aaccdf828ad019ecc1ffaa3dff18e624fc6d5714ea671\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4cbe9400340e5f9ec55e2aff3bad1c15fa3afbbe37e80800e6f3fed2ad26854f\",\"dweb:/ipfs/QmdJBABsuXkvWxVzEyGXsTE3vyfBPXDdw5xvvtUz3JeoYW\"]},\"lib/openzeppelin-contracts/contracts/utils/Address.sol\":{\"keccak256\":\"0xb94eac067c85cd79a4195c0a1f4a878e9827329045c12475a0199f1ae17b9700\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://2ad84b5dbf40ba9e944cc25bd0a98c51bafd49cff30efe5ef5aef921a70081de\",\"dweb:/ipfs/Qme8iCeqe9VdNgWktTTsSxUfHcJEXuvPaJpshWDzoWj56V\"]},\"src/ethernaut/level_27/GoodSamaritan.sol\":{\"keccak256\":\"0xd3baf9f0355ae8a4031aef4116e1eaf69dbb1ef295a5b537fc6554c3afa6bb00\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://692288cbe3f18b90ccc1c61cf035d1928b9f57f856fa19f65ce9eef67e21a231\",\"dweb:/ipfs/QmNiZqbnk2m79RPoNzFc6eLgiKr5DTFGJVyp8XzDFVgf5d\"]},\"test/ethernaut/GoodSamaritan.t.sol\":{\"keccak256\":\"0x702f3ed59c3c820736309c59c8cdbdd440ca8a2f657bb74c3d4f62f3cde7be01\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://38c0336ea4f56d469cf8760272ba1718616ea39cb049109dd106f24f98e01765\",\"dweb:/ipfs/QmPAoggZFTq7o2w6GFxdzAJ9TWevwn7jiEb7jeiDRkscVp\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.17+commit.8df45f5f"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "type": "error",
+          "name": "NotEnoughBalance"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "notify"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@openzeppelin-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+        ":@openzeppelin/=lib/openzeppelin-contracts/",
+        ":@solmate/=lib/solmate/src/",
+        ":ds-test/=lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/",
+        ":openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+        ":openzeppelin-contracts/=lib/openzeppelin-contracts/contracts/",
+        ":solmate/=lib/solmate/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "test/ethernaut/GoodSamaritan.t.sol": "Hack"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "lib/forge-std/lib/ds-test/src/test.sol": {
+        "keccak256": "0xb39cd1d5220cb474947b131e15a4538334b7e886af244b440ae5c9c6bba96a54",
+        "urls": [
+          "bzz-raw://3101520221449ac0070bda3881311a71d9aa87e5210765e875246922cb5cb5f5",
+          "dweb:/ipfs/Qmbg6kAHNoG7ox9N9Xqd9Ere2H2XixMFWFqvyPwFCzB3Gr"
+        ],
+        "license": "GPL-3.0-or-later"
+      },
+      "lib/forge-std/src/Script.sol": {
+        "keccak256": "0x9d09c1e55cd508d3376cff9961625d51d73f8ce075ec1e9deed41408a4556e00",
+        "urls": [
+          "bzz-raw://8880c5551daf337ab91665a9ce593df67a9eb11b0bee820f631d324d2fdd3a8b",
+          "dweb:/ipfs/QmNpvSBGnS9Jr6Swd6XKsijG59a4yjYemWCFwprjKFkpNC"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/StdJson.sol": {
+        "keccak256": "0x1297a1cc393bc8163ccf143e5335536e78cb25ac24a4f6dfdb25f5746dd4827e",
+        "urls": [
+          "bzz-raw://945ccffad9fc09d2aa0ac200a80dcfa2f491dba8680fc9c3d3d450d891284b87",
+          "dweb:/ipfs/QmYSfFb1L6LN1ZB9KWzZqxt2iAbpuFDskBcU1Bz4RiyuQ5"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/Test.sol": {
+        "keccak256": "0x6c9cbd51234372b66bf7c146870edf0855770c46e960a8fae8f354ddf382876b",
+        "urls": [
+          "bzz-raw://fd0ff1f449294dd1447b9d483c52d78e137d8cac518646e76df9fdd4d185d6c2",
+          "dweb:/ipfs/QmS3JP4vKgvAWo8Tc7zVrGxbdR7t37ayk1mTHN3seD6UAZ"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/Vm.sol": {
+        "keccak256": "0x1a5767028a0c3985e991456fc9650055e28b01b787c56b11f66ac30498a153ab",
+        "urls": [
+          "bzz-raw://f86887212eacca450a15a8a5bf9fe83fd91a2ba623df8e9c32c75a31824c8ea2",
+          "dweb:/ipfs/QmTUHBNdZwntgjbFZne7fY9ZJLNGYWaq3uWfGk6FyqdAkB"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/console.sol": {
+        "keccak256": "0x91d5413c2434ca58fd278b6e1e79fd98d10c83931cc2596a6038eee4daeb34ba",
+        "urls": [
+          "bzz-raw://91ccea707361e48b9b7a161fe81f496b9932bc471e9c4e4e1e9c283f2453cc70",
+          "dweb:/ipfs/QmcB66sZhQ6Kz7MUHcLE78YXRUZxoZnnxZjN6yATsbB2ec"
+        ],
+        "license": "MIT"
+      },
+      "lib/forge-std/src/console2.sol": {
+        "keccak256": "0xbeb823fcdb356244a83aaccdf828ad019ecc1ffaa3dff18e624fc6d5714ea671",
+        "urls": [
+          "bzz-raw://4cbe9400340e5f9ec55e2aff3bad1c15fa3afbbe37e80800e6f3fed2ad26854f",
+          "dweb:/ipfs/QmdJBABsuXkvWxVzEyGXsTE3vyfBPXDdw5xvvtUz3JeoYW"
+        ],
+        "license": "MIT"
+      },
+      "lib/openzeppelin-contracts/contracts/utils/Address.sol": {
+        "keccak256": "0xb94eac067c85cd79a4195c0a1f4a878e9827329045c12475a0199f1ae17b9700",
+        "urls": [
+          "bzz-raw://2ad84b5dbf40ba9e944cc25bd0a98c51bafd49cff30efe5ef5aef921a70081de",
+          "dweb:/ipfs/Qme8iCeqe9VdNgWktTTsSxUfHcJEXuvPaJpshWDzoWj56V"
+        ],
+        "license": "MIT"
+      },
+      "src/ethernaut/level_27/GoodSamaritan.sol": {
+        "keccak256": "0xd3baf9f0355ae8a4031aef4116e1eaf69dbb1ef295a5b537fc6554c3afa6bb00",
+        "urls": [
+          "bzz-raw://692288cbe3f18b90ccc1c61cf035d1928b9f57f856fa19f65ce9eef67e21a231",
+          "dweb:/ipfs/QmNiZqbnk2m79RPoNzFc6eLgiKr5DTFGJVyp8XzDFVgf5d"
+        ],
+        "license": "MIT"
+      },
+      "test/ethernaut/GoodSamaritan.t.sol": {
+        "keccak256": "0x702f3ed59c3c820736309c59c8cdbdd440ca8a2f657bb74c3d4f62f3cde7be01",
+        "urls": [
+          "bzz-raw://38c0336ea4f56d469cf8760272ba1718616ea39cb049109dd106f24f98e01765",
+          "dweb:/ipfs/QmPAoggZFTq7o2w6GFxdzAJ9TWevwn7jiEb7jeiDRkscVp"
+        ],
+        "license": "UNLICENSED"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "test/ethernaut/GoodSamaritan.t.sol",
+    "id": 47058,
+    "exportedSymbols": {
+      "Address": [
+        34649
+      ],
+      "Coin": [
+        40270
+      ],
+      "DSTest": [
+        1786
+      ],
+      "GoodSamaritan": [
+        40191
+      ],
+      "GoodSamaritanTest": [
+        47037
+      ],
+      "Hack": [
+        47057
+      ],
+      "INotifyable": [
+        40372
+      ],
+      "Script": [
+        10113
+      ],
+      "StdStorage": [
+        13141
+      ],
+      "Test": [
+        13043
+      ],
+      "Vm": [
+        15162
+      ],
+      "Wallet": [
+        40366
+      ],
+      "console": [
+        23226
+      ],
+      "console2": [
+        31290
+      ],
+      "stdError": [
+        13113
+      ],
+      "stdJson": [
+        10473
+      ],
+      "stdMath": [
+        14382
+      ],
+      "stdStorage": [
+        14243
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "39:792:102",
+    "nodes": [
+      {
+        "id": 46968,
+        "nodeType": "PragmaDirective",
+        "src": "39:24:102",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".17"
+        ]
+      },
+      {
+        "id": 46969,
+        "nodeType": "ImportDirective",
+        "src": "65:28:102",
+        "nodes": [],
+        "absolutePath": "lib/forge-std/src/Test.sol",
+        "file": "forge-std/Test.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 47058,
+        "sourceUnit": 14383,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 46970,
+        "nodeType": "ImportDirective",
+        "src": "94:56:102",
+        "nodes": [],
+        "absolutePath": "src/ethernaut/level_27/GoodSamaritan.sol",
+        "file": "../../src/ethernaut/level_27/GoodSamaritan.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 47058,
+        "sourceUnit": 40373,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 47037,
+        "nodeType": "ContractDefinition",
+        "src": "152:472:102",
+        "nodes": [
+          {
+            "id": 46975,
+            "nodeType": "VariableDeclaration",
+            "src": "193:27:102",
+            "nodes": [],
+            "constant": false,
+            "mutability": "mutable",
+            "name": "goodSamaritan",
+            "nameLocation": "207:13:102",
+            "scope": 47037,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_GoodSamaritan_$40191",
+              "typeString": "contract GoodSamaritan"
+            },
+            "typeName": {
+              "id": 46974,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 46973,
+                "name": "GoodSamaritan",
+                "nameLocations": [
+                  "193:13:102"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 40191,
+                "src": "193:13:102"
+              },
+              "referencedDeclaration": 40191,
+              "src": "193:13:102",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_GoodSamaritan_$40191",
+                "typeString": "contract GoodSamaritan"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 46978,
+            "nodeType": "VariableDeclaration",
+            "src": "226:17:102",
+            "nodes": [],
+            "constant": false,
+            "mutability": "mutable",
+            "name": "hackContract",
+            "nameLocation": "231:12:102",
+            "scope": 47037,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_Hack_$47057",
+              "typeString": "contract Hack"
+            },
+            "typeName": {
+              "id": 46977,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 46976,
+                "name": "Hack",
+                "nameLocations": [
+                  "226:4:102"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 47057,
+                "src": "226:4:102"
+              },
+              "referencedDeclaration": 47057,
+              "src": "226:4:102",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Hack_$47057",
+                "typeString": "contract Hack"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 46980,
+            "nodeType": "VariableDeclaration",
+            "src": "249:13:102",
+            "nodes": [],
+            "constant": false,
+            "mutability": "mutable",
+            "name": "alice",
+            "nameLocation": "257:5:102",
+            "scope": 47037,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 46979,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "249:7:102",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 46998,
+            "nodeType": "FunctionDefinition",
+            "src": "269:111:102",
+            "nodes": [],
+            "body": {
+              "id": 46997,
+              "nodeType": "Block",
+              "src": "293:87:102",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 46988,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 46983,
+                      "name": "goodSamaritan",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 46975,
+                      "src": "303:13:102",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_GoodSamaritan_$40191",
+                        "typeString": "contract GoodSamaritan"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "arguments": [],
+                      "expression": {
+                        "argumentTypes": [],
+                        "id": 46986,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "NewExpression",
+                        "src": "319:17:102",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_GoodSamaritan_$40191_$",
+                          "typeString": "function () returns (contract GoodSamaritan)"
+                        },
+                        "typeName": {
+                          "id": 46985,
+                          "nodeType": "UserDefinedTypeName",
+                          "pathNode": {
+                            "id": 46984,
+                            "name": "GoodSamaritan",
+                            "nameLocations": [
+                              "323:13:102"
+                            ],
+                            "nodeType": "IdentifierPath",
+                            "referencedDeclaration": 40191,
+                            "src": "323:13:102"
+                          },
+                          "referencedDeclaration": 40191,
+                          "src": "323:13:102",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_GoodSamaritan_$40191",
+                            "typeString": "contract GoodSamaritan"
+                          }
+                        }
+                      },
+                      "id": 46987,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "nameLocations": [],
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "319:19:102",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_GoodSamaritan_$40191",
+                        "typeString": "contract GoodSamaritan"
+                      }
+                    },
+                    "src": "303:35:102",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_GoodSamaritan_$40191",
+                      "typeString": "contract GoodSamaritan"
+                    }
+                  },
+                  "id": 46989,
+                  "nodeType": "ExpressionStatement",
+                  "src": "303:35:102"
+                },
+                {
+                  "expression": {
+                    "id": 46995,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 46990,
+                      "name": "hackContract",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 46978,
+                      "src": "348:12:102",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_Hack_$47057",
+                        "typeString": "contract Hack"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "arguments": [],
+                      "expression": {
+                        "argumentTypes": [],
+                        "id": 46993,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "NewExpression",
+                        "src": "363:8:102",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_Hack_$47057_$",
+                          "typeString": "function () returns (contract Hack)"
+                        },
+                        "typeName": {
+                          "id": 46992,
+                          "nodeType": "UserDefinedTypeName",
+                          "pathNode": {
+                            "id": 46991,
+                            "name": "Hack",
+                            "nameLocations": [
+                              "367:4:102"
+                            ],
+                            "nodeType": "IdentifierPath",
+                            "referencedDeclaration": 47057,
+                            "src": "367:4:102"
+                          },
+                          "referencedDeclaration": 47057,
+                          "src": "367:4:102",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_Hack_$47057",
+                            "typeString": "contract Hack"
+                          }
+                        }
+                      },
+                      "id": 46994,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "nameLocations": [],
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "363:10:102",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_Hack_$47057",
+                        "typeString": "contract Hack"
+                      }
+                    },
+                    "src": "348:25:102",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_Hack_$47057",
+                      "typeString": "contract Hack"
+                    }
+                  },
+                  "id": 46996,
+                  "nodeType": "ExpressionStatement",
+                  "src": "348:25:102"
+                }
+              ]
+            },
+            "functionSelector": "0a9254e4",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setUp",
+            "nameLocation": "278:5:102",
+            "parameters": {
+              "id": 46981,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "283:2:102"
+            },
+            "returnParameters": {
+              "id": 46982,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "293:0:102"
+            },
+            "scope": 47037,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 47036,
+            "nodeType": "FunctionDefinition",
+            "src": "386:236:102",
+            "nodes": [],
+            "body": {
+              "id": 47035,
+              "nodeType": "Block",
+              "src": "415:207:102",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "expression": {
+                        "arguments": [],
+                        "expression": {
+                          "argumentTypes": [],
+                          "expression": {
+                            "id": 47001,
+                            "name": "goodSamaritan",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 46975,
+                            "src": "425:13:102",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_contract$_GoodSamaritan_$40191",
+                              "typeString": "contract GoodSamaritan"
+                            }
+                          },
+                          "id": 47003,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberLocation": "439:6:102",
+                          "memberName": "wallet",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": 40117,
+                          "src": "425:20:102",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_function_external_view$__$returns$_t_contract$_Wallet_$40366_$",
+                            "typeString": "function () view external returns (contract Wallet)"
+                          }
+                        },
+                        "id": 47004,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "functionCall",
+                        "lValueRequested": false,
+                        "nameLocations": [],
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "425:22:102",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Wallet_$40366",
+                          "typeString": "contract Wallet"
+                        }
+                      },
+                      "id": 47005,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "448:5:102",
+                      "memberName": "owner",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 40272,
+                      "src": "425:28:102",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_view$__$returns$_t_address_$",
+                        "typeString": "function () view external returns (address)"
+                      }
+                    },
+                    "id": 47006,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "425:30:102",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "id": 47007,
+                  "nodeType": "ExpressionStatement",
+                  "src": "425:30:102"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "id": 47013,
+                            "name": "hackContract",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 46978,
+                            "src": "483:12:102",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_contract$_Hack_$47057",
+                              "typeString": "contract Hack"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_contract$_Hack_$47057",
+                              "typeString": "contract Hack"
+                            }
+                          ],
+                          "id": 47012,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "nodeType": "ElementaryTypeNameExpression",
+                          "src": "475:7:102",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_address_$",
+                            "typeString": "type(address)"
+                          },
+                          "typeName": {
+                            "id": 47011,
+                            "name": "address",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "475:7:102",
+                            "typeDescriptions": {}
+                          }
+                        },
+                        "id": 47014,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "nameLocations": [],
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "475:21:102",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      ],
+                      "expression": {
+                        "id": 47008,
+                        "name": "vm",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 9881,
+                        "src": "466:2:102",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Vm_$15162",
+                          "typeString": "contract Vm"
+                        }
+                      },
+                      "id": 47010,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "469:5:102",
+                      "memberName": "prank",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 14607,
+                      "src": "466:8:102",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$_t_address_$returns$__$",
+                        "typeString": "function (address) external"
+                      }
+                    },
+                    "id": 47015,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "466:31:102",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 47016,
+                  "nodeType": "ExpressionStatement",
+                  "src": "466:31:102"
+                },
+                {
+                  "expression": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "expression": {
+                        "id": 47017,
+                        "name": "goodSamaritan",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 46975,
+                        "src": "507:13:102",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_GoodSamaritan_$40191",
+                          "typeString": "contract GoodSamaritan"
+                        }
+                      },
+                      "id": 47019,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "521:15:102",
+                      "memberName": "requestDonation",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 40190,
+                      "src": "507:29:102",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$__$returns$_t_bool_$",
+                        "typeString": "function () external returns (bool)"
+                      }
+                    },
+                    "id": 47020,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "507:31:102",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 47021,
+                  "nodeType": "ExpressionStatement",
+                  "src": "507:31:102"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "arguments": [
+                              {
+                                "id": 47029,
+                                "name": "goodSamaritan",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 46975,
+                                "src": "596:13:102",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_contract$_GoodSamaritan_$40191",
+                                  "typeString": "contract GoodSamaritan"
+                                }
+                              }
+                            ],
+                            "expression": {
+                              "argumentTypes": [
+                                {
+                                  "typeIdentifier": "t_contract$_GoodSamaritan_$40191",
+                                  "typeString": "contract GoodSamaritan"
+                                }
+                              ],
+                              "id": 47028,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "lValueRequested": false,
+                              "nodeType": "ElementaryTypeNameExpression",
+                              "src": "588:7:102",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_type$_t_address_$",
+                                "typeString": "type(address)"
+                              },
+                              "typeName": {
+                                "id": 47027,
+                                "name": "address",
+                                "nodeType": "ElementaryTypeName",
+                                "src": "588:7:102",
+                                "typeDescriptions": {}
+                              }
+                            },
+                            "id": 47030,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "kind": "typeConversion",
+                            "lValueRequested": false,
+                            "nameLocations": [],
+                            "names": [],
+                            "nodeType": "FunctionCall",
+                            "src": "588:22:102",
+                            "tryCall": false,
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          ],
+                          "expression": {
+                            "arguments": [],
+                            "expression": {
+                              "argumentTypes": [],
+                              "expression": {
+                                "id": 47023,
+                                "name": "goodSamaritan",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 46975,
+                                "src": "558:13:102",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_contract$_GoodSamaritan_$40191",
+                                  "typeString": "contract GoodSamaritan"
+                                }
+                              },
+                              "id": 47024,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "memberLocation": "572:4:102",
+                              "memberName": "coin",
+                              "nodeType": "MemberAccess",
+                              "referencedDeclaration": 40120,
+                              "src": "558:18:102",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_function_external_view$__$returns$_t_contract$_Coin_$40270_$",
+                                "typeString": "function () view external returns (contract Coin)"
+                              }
+                            },
+                            "id": 47025,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "kind": "functionCall",
+                            "lValueRequested": false,
+                            "nameLocations": [],
+                            "names": [],
+                            "nodeType": "FunctionCall",
+                            "src": "558:20:102",
+                            "tryCall": false,
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_contract$_Coin_$40270",
+                              "typeString": "contract Coin"
+                            }
+                          },
+                          "id": 47026,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberLocation": "579:8:102",
+                          "memberName": "balances",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": 40198,
+                          "src": "558:29:102",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
+                            "typeString": "function (address) view external returns (uint256)"
+                          }
+                        },
+                        "id": 47031,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "functionCall",
+                        "lValueRequested": false,
+                        "nameLocations": [],
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "558:53:102",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      {
+                        "hexValue": "30",
+                        "id": 47032,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "613:1:102",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_0_by_1",
+                          "typeString": "int_const 0"
+                        },
+                        "value": "0"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        {
+                          "typeIdentifier": "t_rational_0_by_1",
+                          "typeString": "int_const 0"
+                        }
+                      ],
+                      "id": 47022,
+                      "name": "assertEq",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        11231,
+                        11256,
+                        11269,
+                        11285,
+                        11327,
+                        11369,
+                        11411,
+                        11448,
+                        11485,
+                        11522,
+                        320,
+                        345,
+                        375,
+                        400,
+                        459,
+                        484,
+                        514,
+                        539,
+                        1639,
+                        1674
+                      ],
+                      "referencedDeclaration": 514,
+                      "src": "549:8:102",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_uint256_$_t_uint256_$returns$__$",
+                        "typeString": "function (uint256,uint256)"
+                      }
+                    },
+                    "id": 47033,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "549:66:102",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 47034,
+                  "nodeType": "ExpressionStatement",
+                  "src": "549:66:102"
+                }
+              ]
+            },
+            "functionSelector": "6f2db99c",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "testAttack",
+            "nameLocation": "395:10:102",
+            "parameters": {
+              "id": 46999,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "405:2:102"
+            },
+            "returnParameters": {
+              "id": 47000,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "415:0:102"
+            },
+            "scope": 47037,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 46971,
+              "name": "Test",
+              "nameLocations": [
+                "182:4:102"
+              ],
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 13043,
+              "src": "182:4:102"
+            },
+            "id": 46972,
+            "nodeType": "InheritanceSpecifier",
+            "src": "182:4:102"
+          }
+        ],
+        "canonicalName": "GoodSamaritanTest",
+        "contractDependencies": [
+          40191,
+          47057
+        ],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          47037,
+          13043,
+          10113,
+          1786
+        ],
+        "name": "GoodSamaritanTest",
+        "nameLocation": "161:17:102",
+        "scope": 47058,
+        "usedErrors": []
+      },
+      {
+        "id": 47057,
+        "nodeType": "ContractDefinition",
+        "src": "626:204:102",
+        "nodes": [
+          {
+            "id": 47040,
+            "nodeType": "VariableDeclaration",
+            "src": "646:19:102",
+            "nodes": [],
+            "constant": false,
+            "mutability": "mutable",
+            "name": "called",
+            "nameLocation": "651:6:102",
+            "scope": 47057,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bool",
+              "typeString": "bool"
+            },
+            "typeName": {
+              "id": 47038,
+              "name": "bool",
+              "nodeType": "ElementaryTypeName",
+              "src": "646:4:102",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bool",
+                "typeString": "bool"
+              }
+            },
+            "value": {
+              "hexValue": "66616c7365",
+              "id": 47039,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "bool",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "660:5:102",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bool",
+                "typeString": "bool"
+              },
+              "value": "false"
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 47042,
+            "nodeType": "ErrorDefinition",
+            "src": "672:25:102",
+            "nodes": [],
+            "errorSelector": "ad3a8b9e",
+            "name": "NotEnoughBalance",
+            "nameLocation": "678:16:102",
+            "parameters": {
+              "id": 47041,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "694:2:102"
+            }
+          },
+          {
+            "id": 47056,
+            "nodeType": "FunctionDefinition",
+            "src": "703:125:102",
+            "nodes": [],
+            "body": {
+              "id": 47055,
+              "nodeType": "Block",
+              "src": "744:84:102",
+              "nodes": [],
+              "statements": [
+                {
+                  "condition": {
+                    "commonType": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    },
+                    "id": 47049,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "id": 47047,
+                      "name": "amount",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 47044,
+                      "src": "758:6:102",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "==",
+                    "rightExpression": {
+                      "hexValue": "3130",
+                      "id": 47048,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "768:2:102",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_10_by_1",
+                        "typeString": "int_const 10"
+                      },
+                      "value": "10"
+                    },
+                    "src": "758:12:102",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 47054,
+                  "nodeType": "IfStatement",
+                  "src": "754:68:102",
+                  "trueBody": {
+                    "id": 47053,
+                    "nodeType": "Block",
+                    "src": "772:50:102",
+                    "statements": [
+                      {
+                        "errorCall": {
+                          "arguments": [],
+                          "expression": {
+                            "argumentTypes": [],
+                            "id": 47050,
+                            "name": "NotEnoughBalance",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 47042,
+                            "src": "793:16:102",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_function_error_pure$__$returns$__$",
+                              "typeString": "function () pure"
+                            }
+                          },
+                          "id": 47051,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "kind": "functionCall",
+                          "lValueRequested": false,
+                          "nameLocations": [],
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "793:18:102",
+                          "tryCall": false,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_tuple$__$",
+                            "typeString": "tuple()"
+                          }
+                        },
+                        "id": 47052,
+                        "nodeType": "RevertStatement",
+                        "src": "786:25:102"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "functionSelector": "98d078b4",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "notify",
+            "nameLocation": "712:6:102",
+            "parameters": {
+              "id": 47045,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 47044,
+                  "mutability": "mutable",
+                  "name": "amount",
+                  "nameLocation": "727:6:102",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 47056,
+                  "src": "719:14:102",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 47043,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "719:7:102",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "718:16:102"
+            },
+            "returnParameters": {
+              "id": 47046,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "744:0:102"
+            },
+            "scope": 47057,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Hack",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          47057
+        ],
+        "name": "Hack",
+        "nameLocation": "635:4:102",
+        "scope": 47058,
+        "usedErrors": [
+          47042
+        ]
+      }
+    ],
+    "license": "UNLICENSED"
+  },
+  "id": 102
+}

@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20Permit.sol";
 import "@openzeppelin/contracts/access/AccessControl.sol";
 
 contract TokenV1 is ERC20, AccessControl {
-    bytes32 MIGRATOR_ROLE = keccak256("MIGRATOR_ROLE");
+    bytes32 public MIGRATOR_ROLE = keccak256("MIGRATOR_ROLE"); // made public for testing purposes
 
     constructor() ERC20("Token", "TKN") {
         _grantRole(DEFAULT_ADMIN_ROLE, msg.sender);
